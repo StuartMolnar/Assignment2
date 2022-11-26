@@ -46,7 +46,7 @@ eventstore:
 '''
 
 def get_health_check():
-    pass
+    return ('a', 'a', 'a', 'a')
 
 def check_health():
     receiver_endpoint = f"{app_config['eventstore']['receiver_url']}/get_health"
@@ -61,12 +61,13 @@ def check_health():
     last_updated = datetime.datetime.now()
 
     session = DB_SESSION()
+    
     health_response = Health(receiver_endpoint,
                     storage_endpoint,
                     processing_endpoint,
                     audit_endpoint,
                     last_updated)
-
+    
 
 
 

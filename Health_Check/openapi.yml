@@ -45,19 +45,19 @@ components:
         - audit
         - last_update
       properties:
-        num_bk_withdrawals:
+        receiver:
           type: string
           example: "Running"
-        num_bk_returns:
+        storage:
           type: string
           example: "Down"
-        max_overdue_length:
+        processing:
           type: string
           example: "Running"
-        max_overdue_fine:
+        audit:
           type: string
           example: "Running"
-        longest_book_withdrawn:
+        last_update:
           type: string
           format: date-time
           example: "2022-03-22T11:12:23"
