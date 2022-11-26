@@ -49,25 +49,29 @@ def get_health_check():
     return ('a', 'a', 'a', 'a')
 
 def check_health():
-    receiver_endpoint = f"{app_config['eventstore']['receiver_url']}/get_health"
+    receiver_endpoint = requests.get(f"{app_config['eventstore']['receiver_url']}/get_health")
     storage_endpoint = f"{app_config['eventstore']['storage_endpoint']}/get_health"
     processing_endpoint = f"{app_config['eventstore']['processing_endpoint']}/get_health"
     audit_endpoint = f"{app_config['eventstore']['audit_endpoint']}/get_health"
 
+    
     responses = {"Receiver" : requests.get(receiver_endpoint),
                  "Storage" : requests.get(storage_endpoint),
                  "Processing" : requests.get(processing_endpoint),
                  "Audit" : requests.get(audit_endpoint)}
     last_updated = datetime.datetime.now()
 
+    logger.debug("responses:", responses)
+
     session = DB_SESSION()
     
+    '''
     health_response = Health(receiver_endpoint,
                     storage_endpoint,
                     processing_endpoint,
                     audit_endpoint,
                     last_updated)
-    
+    '''
 
 
 
