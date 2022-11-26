@@ -8,7 +8,6 @@ from base import Base
 import yaml
 import logging
 import logging.config
-from stats import Stats
 import datetime
 import requests
 

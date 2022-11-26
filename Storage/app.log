@@ -1953,3 +1953,35 @@ WHERE book_return.date_created >= %(date_created_1)s
 2022-11-01 02:34:00,485 - basicLogger - INFO - Query for Book Withdrawal events after 2022-10-25T09:52:45Z returns 2 results
 2022-11-01 02:34:55,577 - basicLogger - INFO - Message: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T02:34:55', 'payload': {'withdrawal_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'genre': 'High Fantasy', 'num_of_pages': 694, 'days_allowed': 14, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': 'eab1b53a-e2f5-4380-90fe-77ee2c9808f1'}}
 2022-11-01 02:34:55,828 - basicLogger - DEBUG - Stored event WithdrawalEvent with a trace id of eab1b53a-e2f5-4380-90fe-77ee2c9808f1
+2022-11-26 01:57:29,612 - basicLogger - INFO - Connecting to DB. Hostname:localhost, Port:3306
+2022-11-26 01:57:29,664 - basicLogger - INFO - Connecting to DB. Hostname:localhost, Port:3306
+2022-11-26 01:57:45,267 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:57:43Z returns 0 results
+2022-11-26 01:57:47,318 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:57:43Z returns 0 results
+2022-11-26 01:57:50,183 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:57:48Z returns 0 results
+2022-11-26 01:57:52,244 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:57:48Z returns 0 results
+2022-11-26 01:57:55,187 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:57:53Z returns 0 results
+2022-11-26 01:57:57,248 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:57:53Z returns 0 results
+2022-11-26 01:58:00,177 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:57:58Z returns 0 results
+2022-11-26 01:58:02,238 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:57:58Z returns 0 results
+2022-11-26 01:58:05,182 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:58:03Z returns 0 results
+2022-11-26 01:58:07,246 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:58:03Z returns 0 results
+2022-11-26 01:58:10,188 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:58:08Z returns 0 results
+2022-11-26 01:58:12,249 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:58:08Z returns 0 results
+2022-11-26 01:58:15,177 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:58:13Z returns 0 results
+2022-11-26 01:58:17,238 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:58:13Z returns 0 results
+2022-11-26 01:58:20,182 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:58:18Z returns 0 results
+2022-11-26 01:58:22,244 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:58:18Z returns 0 results
+2022-11-26 01:58:25,175 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:58:23Z returns 0 results
+2022-11-26 01:58:27,237 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:58:23Z returns 0 results
+2022-11-26 01:58:30,182 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:58:28Z returns 0 results
+2022-11-26 01:58:32,242 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:58:28Z returns 0 results
+2022-11-26 01:58:35,185 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:58:33Z returns 0 results
+2022-11-26 01:58:37,246 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:58:33Z returns 0 results
+2022-11-26 01:58:40,189 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:58:38Z returns 0 results
+2022-11-26 01:58:42,250 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:58:38Z returns 0 results
+2022-11-26 01:58:45,210 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:58:43Z returns 0 results
+2022-11-26 01:58:47,272 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:58:43Z returns 0 results
+2022-11-26 01:58:50,185 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:58:48Z returns 0 results
+2022-11-26 01:58:52,245 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:58:48Z returns 0 results
+2022-11-26 01:58:55,197 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:58:53Z returns 0 results
+2022-11-26 01:58:57,251 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:58:53Z returns 0 results
