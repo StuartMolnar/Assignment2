@@ -1,0 +1,9 @@
+version: 1
+WithdrawalEvent:
+  url: http://localhost:8090/books/withdrawal
+ReturnEvent:
+  url: http://localhost:8090/books/return
+events:
+  hostname: lab6.eastus.cloudapp.azure.com
+  port: 9092
+  topic: events

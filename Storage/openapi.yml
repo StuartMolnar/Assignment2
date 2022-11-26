@@ -1,0 +1,149 @@
+openapi: 3.0.0
+servers: []
+info:
+  description: This API provides storage services
+  version: "1.0.0"
+  title: Storage API
+  contact:
+    email: stuartmolnar@hotmail.com
+tags:
+  - name: books
+    description: Operations available for books
+paths:
+  /books/withdrawals:
+    get:
+      tags:
+        - books
+      summary: gets array of all book withdrawals
+      operationId: app.get_withdrawals
+      description: Returns an list of every book withdrawal in the system
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: '2022-09-06T10:02:24.03Z'
+      responses:
+        '200':
+          description: Successfully returned a list of book withdrawal events
+          content:
+            application/json:
+              schema:
+                type: array
+                items: 
+                  $ref: '#/components/schemas/BookWithdrawal'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        
+  /books/returns:
+    get:
+      tags:
+        - books
+      summary: gets array of all book returns
+      operationId: app.get_returns
+      description: Returns an list of every book return in the system
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: '2022-09-06T10:02:24.03Z'
+      responses:
+        '200':
+          description: Successfully returned a list of book return events
+          content:
+            application/json:
+              schema:
+                type: array
+                items: 
+                  $ref: '#/components/schemas/BookReturn'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+            
+components:
+  schemas:
+    BookWithdrawal:
+      required:
+      - withdrawal_id
+      - book_name
+      - genre
+      - num_of_pages
+      - days_allowed
+      - timestamp
+      - trace_id
+      properties:
+        withdrawal_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        book_name:
+          type: string
+          example: 'A Game of Thrones'
+        genre:
+          type: string
+          example: 'High Fantasy'
+        days_allowed:
+          type: integer
+          example: 14
+        num_of_pages:
+         type: integer
+         example: 694
+        timestamp:
+          type: string
+          format: date-time
+          example: '2022-09-06T10:02:24.03Z'
+        trace_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+      type: object
+      
+    BookReturn:
+      required:
+      - return_id
+      - book_name
+      - days_overdue
+      - expected_fine
+      - timestamp
+      - trace_id
+      properties:
+        return_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        book_name:
+          type: string
+          example: 'A Game of Thrones'
+        days_overdue:
+          type: integer
+          example: 3
+        expected_fine:
+          type: number
+          example: 5.99
+        timestamp:
+          type: string
+          format: date-time
+          example: '2022-09-06T10:02:24.03Z'
+        trace_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+      type: object

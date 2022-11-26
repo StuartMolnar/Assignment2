@@ -1,0 +1,111 @@
+openapi: 3.0.0
+servers: []
+info:
+  description: This API receives withdrawal related events from libraries
+  version: "1.0.0"
+  title: Library API
+  contact:
+    email: stuartmolnar@hotmail.com
+tags:
+  - name: books
+    description: Operations available for books
+paths:
+  /books/withdrawal:
+    post:
+      tags:
+        - books
+      summary: withdraws a book
+      operationId: app.withdraw_book
+      description: Adds a new book withdrawal to the system
+      responses:
+        '201':
+          description: book withdrawn
+        '400':
+          description: 'invalid input, object invalid'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BookWithdrawal'
+        description: Reading book to withdraw
+        
+        
+  /books/return:
+    post:
+      tags:
+        - books
+      summary: returns a book
+      operationId: app.return_book
+      description: Adds a new book return to the system
+      responses:
+        '201':
+          description: book returned
+        '400':
+          description: 'invalid input, object invalid'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BookReturn'
+        description: Reading book to return
+        
+        
+components:
+  schemas:
+    BookWithdrawal:
+      required:
+      - withdrawal_id
+      - book_name
+      - genre
+      - num_of_pages
+      - days_allowed
+      - timestamp
+      properties:
+        withdrawal_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        book_name:
+          type: string
+          example: 'A Game of Thrones'
+        genre:
+          type: string
+          example: 'High Fantasy'
+        days_allowed:
+          type: integer
+          example: 14
+        num_of_pages:
+         type: integer
+         example: 694
+        timestamp:
+          type: string
+          format: date-time
+          example: '2022-09-06T10:02:24.03Z'
+      type: object
+      
+    BookReturn:
+      required:
+      - return_id
+      - book_name
+      - days_overdue
+      - expected_fine
+      - timestamp
+      properties:
+        return_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        book_name:
+          type: string
+          example: 'A Game of Thrones'
+        days_overdue:
+          type: integer
+          example: 3
+        expected_fine:
+          type: number
+          example: 5.99
+        timestamp:
+          type: string
+          format: date-time
+          example: '2022-09-06T10:02:24.03Z'
+      type: object

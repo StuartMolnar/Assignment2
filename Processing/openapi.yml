@@ -1,0 +1,60 @@
+openapi: 3.0.0
+servers: []
+info:
+  description: This API provides processed statistics
+  version: "1.0.0"
+  title: Processing API
+  contact:
+    email: stuartmolnar@hotmail.com
+
+paths:
+  /stats:
+    get:
+     summary: Gets the event stats
+     operationId: app.get_stats
+     description: Gets Book Withdrawal and Book Return processes statistics
+     responses:
+      '200':
+        description: Successfully returned a list of book events
+        content:
+          application/json:
+            schema:
+              type: object
+              items:
+                $ref: '#/components/schemas/BookStats'
+      '400':
+        description: Invalid request
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                message:
+                  type: string        
+        
+components:
+  schemas:
+    BookStats:
+      required:
+        - num_bk_withdrawals
+        - num_bk_returns
+        - max_overdue_length
+        - max_overdue_fine
+        - longest_book_withdrawn
+      properties:
+        num_bk_withdrawals:
+          type: integer
+          example: 50000
+        num_bk_returns:
+          type: integer
+          example: 50000
+        max_overdue_length:
+          type: integer
+          example: 250
+        max_overdue_fine:
+          type: number
+          example: 25.50
+        longest_book_withdrawn:
+          type: integer
+          example: 350
+      type: object

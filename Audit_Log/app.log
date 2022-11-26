@@ -1,0 +1,102 @@
+2022-11-01 02:06:38,911 - basicLogger - INFO - Retrieving BR at index 0
+2022-11-01 02:06:39,100 - basicLogger - ERROR - Could not find BR at index 0
+2022-11-01 02:06:56,912 - basicLogger - INFO - Retrieving BR at index 0
+2022-11-01 02:06:57,105 - basicLogger - ERROR - Could not find BR at index 0
+2022-11-01 02:07:09,708 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:07:09,899 - basicLogger - ERROR - Could not find BW at index 0
+2022-11-01 02:14:35,538 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:14:35,622 - basicLogger - ERROR - No more messages found
+2022-11-01 02:14:35,624 - basicLogger - ERROR - Could not find BW at index 0
+2022-11-01 02:15:17,355 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:15:48,233 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:15:48,236 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x248640c1250 (consumer_group=None)>
+2022-11-01 02:15:48,428 - basicLogger - ERROR - Could not find BW at index 0
+2022-11-01 02:16:52,583 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:16:52,584 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x1eb9cb60250 (consumer_group=None)>
+2022-11-01 02:16:52,666 - basicLogger - DEBUG - msg: <pykafka.protocol.message.Message object at 0x000001EB9CAE9430>
+2022-11-01 02:16:52,668 - basicLogger - DEBUG - msg: <pykafka.protocol.message.Message object at 0x000001EB9CAE9890>
+2022-11-01 02:16:52,670 - basicLogger - DEBUG - msg: <pykafka.protocol.message.Message object at 0x000001EB9CAE9F20>
+2022-11-01 02:16:52,672 - basicLogger - DEBUG - msg: <pykafka.protocol.message.Message object at 0x000001EB9CAE92E0>
+2022-11-01 02:16:52,902 - basicLogger - ERROR - Could not find BW at index 0
+2022-11-01 02:17:28,480 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:17:28,484 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x1f094a40280 (consumer_group=None)>
+2022-11-01 02:17:28,570 - basicLogger - DEBUG - msg: {"type": "ReturnEvent", "datetime": "2022-11-01T01:40:58", "payload": {"return_id": "d290f1ee-6c54-4b01-90e6-d701748f0851", "book_name": "A Game of Thrones", "days_overdue": 3, "expected_fine": 5.99, "timestamp": "2022-09-06T10:02:24.03Z", "trace_id": "567ba6cb-f7df-49c7-8182-5ab2a2baad93"}}
+2022-11-01 02:17:28,576 - basicLogger - DEBUG - msg: {"type": "ReturnEvent", "datetime": "2022-11-01T01:41:53", "payload": {"return_id": "d290f1ee-6c54-4b01-90e6-d701748f0851", "book_name": "A Game of Thrones", "days_overdue": 3, "expected_fine": 5.99, "timestamp": "2022-09-06T10:02:24.03Z", "trace_id": "f9a23673-8a14-4a29-9557-beacd5b40ae9"}}
+2022-11-01 02:17:28,582 - basicLogger - DEBUG - msg: {"type": "WithdrawalEvent", "datetime": "2022-11-01T01:42:04", "payload": {"withdrawal_id": "d290f1ee-6c54-4b01-90e6-d701748f0851", "book_name": "A Game of Thrones", "genre": "High Fantasy", "num_of_pages": 694, "days_allowed": 14, "timestamp": "2022-09-06T10:02:24.03Z", "trace_id": "5eb5d987-ad40-4f13-b3ce-2beccf3c24cd"}}
+2022-11-01 02:17:28,591 - basicLogger - DEBUG - msg: {"type": "ReturnEvent", "datetime": "2022-11-01T02:06:47", "payload": {"return_id": "d290f1ee-6c54-4b01-90e6-d701748f0851", "book_name": "A Game of Thrones", "days_overdue": 3, "expected_fine": 5.99, "timestamp": "2022-09-06T10:02:24.03Z", "trace_id": "5ade5b8f-e7a9-4813-afe1-fa3821824c5a"}}
+2022-11-01 02:17:28,822 - basicLogger - ERROR - Could not find BW at index 0
+2022-11-01 02:19:06,043 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:19:06,046 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x167764c11c0 (consumer_group=None)>
+2022-11-01 02:19:06,126 - basicLogger - DEBUG - msg: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:40:58', 'payload': {'return_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 5.99, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '567ba6cb-f7df-49c7-8182-5ab2a2baad93'}}
+2022-11-01 02:19:06,139 - basicLogger - DEBUG - msg: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:41:53', 'payload': {'return_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 5.99, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': 'f9a23673-8a14-4a29-9557-beacd5b40ae9'}}
+2022-11-01 02:19:06,147 - basicLogger - DEBUG - msg: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:42:04', 'payload': {'withdrawal_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'genre': 'High Fantasy', 'num_of_pages': 694, 'days_allowed': 14, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '5eb5d987-ad40-4f13-b3ce-2beccf3c24cd'}}
+2022-11-01 02:19:06,156 - basicLogger - DEBUG - msg: {'type': 'ReturnEvent', 'datetime': '2022-11-01T02:06:47', 'payload': {'return_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 5.99, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '5ade5b8f-e7a9-4813-afe1-fa3821824c5a'}}
+2022-11-01 02:19:06,389 - basicLogger - ERROR - Could not find BW at index 0
+2022-11-01 02:20:47,056 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:20:47,058 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x29174521250 (consumer_group=None)>
+2022-11-01 02:20:47,138 - basicLogger - DEBUG - msg: ReturnEvent
+2022-11-01 02:20:47,139 - basicLogger - DEBUG - msg: ReturnEvent
+2022-11-01 02:20:47,140 - basicLogger - DEBUG - msg: WithdrawalEvent
+2022-11-01 02:20:47,142 - basicLogger - DEBUG - msg: ReturnEvent
+2022-11-01 02:20:47,375 - basicLogger - ERROR - Could not find BW at index 0
+2022-11-01 02:23:09,058 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:23:09,059 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x24e668d1250 (consumer_group=None)>
+2022-11-01 02:23:09,141 - basicLogger - ERROR - No more messages found
+2022-11-01 02:23:09,143 - basicLogger - ERROR - Could not find BW at index 0
+2022-11-01 02:23:57,476 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:23:57,478 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x1cf34b02220 (consumer_group=None)>
+2022-11-01 02:23:57,569 - basicLogger - ERROR - No more messages found
+2022-11-01 02:23:57,570 - basicLogger - ERROR - Could not find BW at index 0
+2022-11-01 02:24:49,724 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:24:49,727 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x27eede022b0 (consumer_group=None)>
+2022-11-01 02:24:49,730 - basicLogger - ERROR - No more messages found
+2022-11-01 02:24:49,733 - basicLogger - ERROR - Could not find BW at index 0
+2022-11-01 02:25:37,958 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:25:37,960 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x2b71d4522e0 (consumer_group=None)>
+2022-11-01 02:25:38,059 - basicLogger - DEBUG - msg: ReturnEvent
+2022-11-01 02:25:38,064 - basicLogger - DEBUG - msg: ReturnEvent
+2022-11-01 02:25:38,068 - basicLogger - DEBUG - msg: WithdrawalEvent
+2022-11-01 02:25:38,077 - basicLogger - DEBUG - msg: ReturnEvent
+2022-11-01 02:25:38,302 - basicLogger - ERROR - Could not find BW at index 0
+2022-11-01 02:26:08,149 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:26:08,152 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x1e647ea1250 (consumer_group=None)>
+2022-11-01 02:26:08,237 - basicLogger - DEBUG - msg: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:40:58', 'payload': {'return_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 5.99, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '567ba6cb-f7df-49c7-8182-5ab2a2baad93'}}
+2022-11-01 02:26:08,244 - basicLogger - DEBUG - msg: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:41:53', 'payload': {'return_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 5.99, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': 'f9a23673-8a14-4a29-9557-beacd5b40ae9'}}
+2022-11-01 02:26:08,253 - basicLogger - DEBUG - msg: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:42:04', 'payload': {'withdrawal_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'genre': 'High Fantasy', 'num_of_pages': 694, 'days_allowed': 14, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '5eb5d987-ad40-4f13-b3ce-2beccf3c24cd'}}
+2022-11-01 02:26:08,266 - basicLogger - DEBUG - msg: {'type': 'ReturnEvent', 'datetime': '2022-11-01T02:06:47', 'payload': {'return_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 5.99, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '5ade5b8f-e7a9-4813-afe1-fa3821824c5a'}}
+2022-11-01 02:26:08,384 - basicLogger - ERROR - Could not find BW at index 3
+2022-11-01 02:26:30,984 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:26:30,986 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x16fc9561250 (consumer_group=None)>
+2022-11-01 02:26:31,068 - basicLogger - DEBUG - msg: ReturnEvent
+2022-11-01 02:26:31,070 - basicLogger - DEBUG - msg: ReturnEvent
+2022-11-01 02:26:31,072 - basicLogger - DEBUG - msg: WithdrawalEvent
+2022-11-01 02:26:31,074 - basicLogger - DEBUG - msg: ReturnEvent
+2022-11-01 02:26:31,184 - basicLogger - ERROR - Could not find BW at index 3
+2022-11-01 02:27:28,599 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:27:28,602 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x221cbaf7160 (consumer_group=None)>
+2022-11-01 02:27:28,682 - basicLogger - DEBUG - msg: ReturnEvent, index=0
+2022-11-01 02:27:28,685 - basicLogger - DEBUG - msg: ReturnEvent, index=0
+2022-11-01 02:27:28,688 - basicLogger - DEBUG - msg: WithdrawalEvent, index=0
+2022-11-01 02:27:28,691 - basicLogger - DEBUG - msg: ReturnEvent, index=0
+2022-11-01 02:27:28,805 - basicLogger - ERROR - Could not find BW at index 0
+2022-11-01 02:31:27,604 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:31:27,606 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x11799bff2b0 (consumer_group=None)>
+2022-11-01 02:31:27,685 - basicLogger - INFO - Returned status code 200 and WithdrawalEvent: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:42:04', 'payload': {'withdrawal_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'genre': 'High Fantasy', 'num_of_pages': 694, 'days_allowed': 14, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '5eb5d987-ad40-4f13-b3ce-2beccf3c24cd'}}
+2022-11-01 02:32:00,531 - basicLogger - INFO - Retrieving BW at index 0
+2022-11-01 02:32:00,533 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x1cee45221c0 (consumer_group=None)>
+2022-11-01 02:32:00,614 - basicLogger - INFO - Returned status code 200 and WithdrawalEvent at index 0: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T01:42:04', 'payload': {'withdrawal_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'genre': 'High Fantasy', 'num_of_pages': 694, 'days_allowed': 14, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '5eb5d987-ad40-4f13-b3ce-2beccf3c24cd'}}
+2022-11-01 02:34:08,901 - basicLogger - INFO - Retrieving BW at index 1
+2022-11-01 02:34:08,902 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x1cee4539f40 (consumer_group=None)>
+2022-11-01 02:34:08,982 - basicLogger - INFO - Returned status code 200 and WithdrawalEvent at index 1: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T02:33:56', 'payload': {'withdrawal_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'genre': 'High Fantasy', 'num_of_pages': 694, 'days_allowed': 14, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '471bc81c-9731-4d4e-8e44-81295827af04'}}
+2022-11-01 02:34:13,926 - basicLogger - INFO - Retrieving BW at index 2
+2022-11-01 02:34:13,929 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x1cee4539250 (consumer_group=None)>
+2022-11-01 02:34:14,126 - basicLogger - ERROR - Could not find BW at index 2
+2022-11-01 02:35:00,822 - basicLogger - INFO - Retrieving BW at index 2
+2022-11-01 02:35:00,825 - basicLogger - DEBUG - consumer: <pykafka.simpleconsumer.SimpleConsumer at 0x1cee453e880 (consumer_group=None)>
+2022-11-01 02:35:00,908 - basicLogger - INFO - Returned status code 200 and WithdrawalEvent at index 2: {'type': 'WithdrawalEvent', 'datetime': '2022-11-01T02:34:55', 'payload': {'withdrawal_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'genre': 'High Fantasy', 'num_of_pages': 694, 'days_allowed': 14, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': 'eab1b53a-e2f5-4380-90fe-77ee2c9808f1'}}
+2022-11-01 02:36:38,396 - basicLogger - INFO - Retrieving BR at index 1
+2022-11-01 02:36:38,480 - basicLogger - INFO - Returned status code 200 and ReturnEvent at index 1: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:41:53', 'payload': {'return_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 5.99, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': 'f9a23673-8a14-4a29-9557-beacd5b40ae9'}}
+2022-11-01 02:36:43,961 - basicLogger - INFO - Retrieving BR at index 5
+2022-11-01 02:36:44,160 - basicLogger - ERROR - Could not find BR at index 5
+2022-11-01 02:37:11,883 - basicLogger - INFO - Retrieving BR at index 0
+2022-11-01 02:37:11,973 - basicLogger - INFO - Returned status code 200 and ReturnEvent at index 0: {'type': 'ReturnEvent', 'datetime': '2022-11-01T01:40:58', 'payload': {'return_id': 'd290f1ee-6c54-4b01-90e6-d701748f0851', 'book_name': 'A Game of Thrones', 'days_overdue': 3, 'expected_fine': 5.99, 'timestamp': '2022-09-06T10:02:24.03Z', 'trace_id': '567ba6cb-f7df-49c7-8182-5ab2a2baad93'}}

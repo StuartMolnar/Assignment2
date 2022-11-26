@@ -1,0 +1,151 @@
+openapi: 3.0.0
+servers: []
+info:
+  description: This API provides audit info
+  version: "1.0.0"
+  title: Audit API
+  contact:
+    email: stuartmolnar@hotmail.com
+
+paths:
+  /withdrawal:
+    get:
+      summary: get a book withdrawal from history
+      operationId: app.get_book_withdrawal
+      description: Gets book withdrawal from the event store
+      parameters:
+        - name: index
+          in: query
+          description: gets the BW at the index in event store
+          schema:
+            type: integer
+            example: 100
+      responses:
+        '200':
+          description: Succesfully returned a book withdrawal event
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/BookWithdrawal'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        
+        
+  /return:
+    get:
+      summary: get a book return from history
+      operationId: app.get_book_return
+      description: Gets book return from the event store
+      parameters:
+        - name: index
+          in: query
+          description: gets the BR at the index in event store
+          schema:
+            type: integer
+            example: 100
+      responses:
+        '200':
+          description: Succesfully returned a book return event
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/BookReturn'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        
+        
+components:
+  schemas:
+    BookWithdrawal:
+      required:
+      - withdrawal_id
+      - book_name
+      - genre
+      - num_of_pages
+      - days_allowed
+      - timestamp
+      properties:
+        withdrawal_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        book_name:
+          type: string
+          example: 'A Game of Thrones'
+        genre:
+          type: string
+          example: 'High Fantasy'
+        days_allowed:
+          type: integer
+          example: 14
+        num_of_pages:
+         type: integer
+         example: 694
+        timestamp:
+          type: string
+          format: date-time
+          example: '2022-09-06T10:02:24.03Z'
+      type: object
+      
+    BookReturn:
+      required:
+      - return_id
+      - book_name
+      - days_overdue
+      - expected_fine
+      - timestamp
+      properties:
+        return_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        book_name:
+          type: string
+          example: 'A Game of Thrones'
+        days_overdue:
+          type: integer
+          example: 3
+        expected_fine:
+          type: number
+          example: 5.99
+        timestamp:
+          type: string
+          format: date-time
+          example: '2022-09-06T10:02:24.03Z'
+      type: object
