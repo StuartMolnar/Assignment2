@@ -1,13 +1,13 @@
 from sqlalchemy import Column, Integer, DateTime, String
 from base import Base
 
-class Stats(Base):
-    """ Processing Statistics """
-    __tablename__ = "stats"
+class Health(Base):
+    """ Service Health Indicators """
+    __tablename__ = "health"
     id = Column(Integer, primary_key=True)
     receiver = Column(String(100), nullable=False)
     storage = Column(String(100), nullable=False)
-    max_overdue_length = Column(String(100), nullable=False)
+    processing = Column(String(100), nullable=False)
     audit = Column(String(100), nullable=False)
     last_updated = Column(DateTime, nullable=False)
 

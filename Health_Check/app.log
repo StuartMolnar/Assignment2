@@ -3,3 +3,332 @@
 2022-11-26 03:38:21,610 - basicLogger - INFO - Periodic processing initiated
 2022-11-26 03:39:12,084 - basicLogger - INFO - Periodic processing initiated
 2022-11-26 03:39:30,008 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 03:51:14,397 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 03:51:19,418 - basicLogger - INFO - Health check initiated
+2022-11-26 03:51:24,407 - basicLogger - INFO - Health check initiated
+2022-11-26 03:51:29,413 - basicLogger - INFO - Health check initiated
+2022-11-26 03:51:34,420 - basicLogger - INFO - Health check initiated
+2022-11-26 03:51:39,409 - basicLogger - INFO - Health check initiated
+2022-11-26 03:51:55,366 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 03:52:00,387 - basicLogger - INFO - Health check initiated
+2022-11-26 03:52:05,378 - basicLogger - INFO - Health check initiated
+2022-11-26 03:53:00,099 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 03:53:05,112 - basicLogger - INFO - Health check initiated
+2022-11-26 03:53:10,118 - basicLogger - INFO - Health check initiated
+2022-11-26 03:53:15,108 - basicLogger - INFO - Health check initiated
+2022-11-26 03:55:02,703 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 03:55:07,719 - basicLogger - INFO - Health check initiated
+2022-11-26 03:55:12,725 - basicLogger - INFO - Health check initiated
+2022-11-26 03:55:17,713 - basicLogger - INFO - Health check initiated
+2022-11-26 03:55:22,721 - basicLogger - INFO - Health check initiated
+2022-11-26 03:55:36,745 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 03:55:41,758 - basicLogger - INFO - Health check initiated
+2022-11-26 03:55:46,762 - basicLogger - INFO - Health check initiated
+2022-11-26 03:55:51,754 - basicLogger - INFO - Health check initiated
+2022-11-26 03:57:30,286 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 03:57:35,299 - basicLogger - INFO - Health check initiated
+2022-11-26 03:57:40,306 - basicLogger - INFO - Health check initiated
+2022-11-26 03:57:45,297 - basicLogger - INFO - Health check initiated
+2022-11-26 04:01:30,823 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:01:35,835 - basicLogger - INFO - Health check initiated
+2022-11-26 04:01:40,840 - basicLogger - INFO - Health check initiated
+2022-11-26 04:01:45,829 - basicLogger - INFO - Health check initiated
+2022-11-26 04:02:20,198 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:02:25,201 - basicLogger - INFO - Health check initiated
+2022-11-26 04:02:30,207 - basicLogger - INFO - Health check initiated
+2022-11-26 04:10:27,567 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:10:32,585 - basicLogger - INFO - Health check initiated
+2022-11-26 04:10:37,587 - basicLogger - INFO - Health check initiated
+2022-11-26 04:10:42,584 - basicLogger - INFO - Health check initiated
+2022-11-26 04:10:47,583 - basicLogger - INFO - Health check initiated
+2022-11-26 04:10:52,586 - basicLogger - INFO - Health check initiated
+2022-11-26 04:11:38,552 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:11:43,557 - basicLogger - INFO - Health check initiated
+2022-11-26 04:11:48,562 - basicLogger - INFO - Health check initiated
+2022-11-26 04:12:01,357 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:12:06,368 - basicLogger - INFO - Health check initiated
+2022-11-26 04:12:29,884 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:12:34,901 - basicLogger - INFO - Health check initiated
+2022-11-26 04:12:39,892 - basicLogger - INFO - Health check initiated
+2022-11-26 04:13:15,429 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:13:20,440 - basicLogger - INFO - Health check initiated
+2022-11-26 04:13:25,445 - basicLogger - INFO - Health check initiated
+2022-11-26 04:13:30,434 - basicLogger - INFO - Health check initiated
+2022-11-26 04:13:35,441 - basicLogger - INFO - Health check initiated
+2022-11-26 04:13:43,298 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:13:48,307 - basicLogger - INFO - Health check initiated
+2022-11-26 04:13:53,313 - basicLogger - INFO - Health check initiated
+2022-11-26 04:14:01,863 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:14:06,873 - basicLogger - INFO - Health check initiated
+2022-11-26 04:14:11,877 - basicLogger - INFO - Health check initiated
+2022-11-26 04:14:16,882 - basicLogger - INFO - Health check initiated
+2022-11-26 04:14:21,871 - basicLogger - INFO - Health check initiated
+2022-11-26 04:14:26,877 - basicLogger - INFO - Health check initiated
+2022-11-26 04:14:31,882 - basicLogger - INFO - Health check initiated
+2022-11-26 04:14:37,084 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:14:42,093 - basicLogger - INFO - Health check initiated
+2022-11-26 04:14:46,183 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:14:47,096 - basicLogger - INFO - Health check initiated
+2022-11-26 04:14:51,188 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:14:52,100 - basicLogger - INFO - Health check initiated
+2022-11-26 04:14:56,193 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:15:51,416 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:15:56,422 - basicLogger - INFO - Health check initiated
+2022-11-26 04:16:00,533 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:16:26,101 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:16:31,111 - basicLogger - INFO - Health check initiated
+2022-11-26 04:16:35,205 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:16:41,122 - basicLogger - INFO - Health check initiated
+2022-11-26 04:16:45,217 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:16:51,116 - basicLogger - INFO - Health check initiated
+2022-11-26 04:16:55,209 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:17:21,548 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:17:26,554 - basicLogger - INFO - Health check initiated
+2022-11-26 04:17:30,647 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:17:36,565 - basicLogger - INFO - Health check initiated
+2022-11-26 04:17:40,657 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:18:31,783 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:18:36,785 - basicLogger - INFO - Health check initiated
+2022-11-26 04:18:40,877 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:18:46,794 - basicLogger - INFO - Health check initiated
+2022-11-26 04:18:50,886 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:18:56,803 - basicLogger - INFO - Health check initiated
+2022-11-26 04:19:00,895 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:19:44,707 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:19:49,711 - basicLogger - INFO - Health check initiated
+2022-11-26 04:19:53,803 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:19:59,720 - basicLogger - INFO - Health check initiated
+2022-11-26 04:20:03,813 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:20:09,711 - basicLogger - INFO - Health check initiated
+2022-11-26 04:20:13,806 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:23:38,896 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:23:43,915 - basicLogger - INFO - Health check initiated
+2022-11-26 04:23:48,008 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:23:53,908 - basicLogger - INFO - Health check initiated
+2022-11-26 04:23:58,004 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:24:24,754 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:24:29,761 - basicLogger - INFO - Health check initiated
+2022-11-26 04:24:33,853 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:24:37,941 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:24:39,772 - basicLogger - INFO - Health check initiated
+2022-11-26 04:24:43,865 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:24:47,950 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:26:43,447 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:26:48,456 - basicLogger - INFO - Health check initiated
+2022-11-26 04:26:50,504 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:26:54,590 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:26:58,680 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:27:02,771 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:27:03,454 - basicLogger - INFO - Health check initiated
+2022-11-26 04:27:05,502 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:27:09,589 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:27:13,679 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:27:17,767 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:27:18,451 - basicLogger - INFO - Health check initiated
+2022-11-26 04:27:20,498 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:27:24,589 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:27:28,674 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:27:32,764 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:27:36,860 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:27:41,877 - basicLogger - INFO - Health check initiated
+2022-11-26 04:27:43,925 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:27:48,011 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:27:52,102 - basicLogger - DEBUG - processing response type: 0
+2022-11-26 04:27:56,194 - basicLogger - DEBUG - audit response type: 0
+2022-11-26 04:27:56,878 - basicLogger - INFO - Health check initiated
+2022-11-26 04:27:58,924 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:28:03,013 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:28:07,103 - basicLogger - DEBUG - processing response type: 0
+2022-11-26 04:28:11,193 - basicLogger - DEBUG - audit response type: 0
+2022-11-26 04:28:11,878 - basicLogger - INFO - Health check initiated
+2022-11-26 04:28:13,925 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:28:18,011 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:28:22,102 - basicLogger - DEBUG - processing response type: 0
+2022-11-26 04:28:26,180 - basicLogger - DEBUG - audit response type: 0
+2022-11-26 04:28:26,879 - basicLogger - INFO - Health check initiated
+2022-11-26 04:28:28,926 - basicLogger - DEBUG - receiver response: 200
+2022-11-26 04:28:33,012 - basicLogger - DEBUG - storage response type: 0
+2022-11-26 04:28:37,103 - basicLogger - DEBUG - processing response type: 0
+2022-11-26 04:28:41,194 - basicLogger - DEBUG - audit response type: 0
+2022-11-26 04:35:32,116 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:35:37,130 - basicLogger - INFO - Health check initiated
+2022-11-26 04:35:51,446 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:35:52,130 - basicLogger - INFO - Health check initiated
+2022-11-26 04:36:06,446 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:36:07,129 - basicLogger - INFO - Health check initiated
+2022-11-26 04:36:21,445 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:36:22,129 - basicLogger - INFO - Health check initiated
+2022-11-26 04:36:36,462 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:36:37,130 - basicLogger - INFO - Health check initiated
+2022-11-26 04:36:51,447 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:36:52,131 - basicLogger - INFO - Health check initiated
+2022-11-26 04:37:06,464 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:37:07,132 - basicLogger - INFO - Health check initiated
+2022-11-26 04:37:21,493 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:37:22,130 - basicLogger - INFO - Health check initiated
+2022-11-26 04:37:36,445 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:37:37,128 - basicLogger - INFO - Health check initiated
+2022-11-26 04:37:51,436 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:37:52,135 - basicLogger - INFO - Health check initiated
+2022-11-26 04:38:06,387 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:39:20,282 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:39:25,289 - basicLogger - INFO - Health check initiated
+2022-11-26 04:39:39,604 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:39:39,606 - basicLogger - DEBUG - service health stored in database
+2022-11-26 04:39:40,302 - basicLogger - INFO - Health check initiated
+2022-11-26 04:39:54,618 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:39:54,620 - basicLogger - DEBUG - service health stored in database
+2022-11-26 04:40:25,950 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:40:30,957 - basicLogger - INFO - Health check initiated
+2022-11-26 04:40:45,275 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:40:45,276 - basicLogger - DEBUG - service health stored in database
+2022-11-26 04:40:45,973 - basicLogger - INFO - Health check initiated
+2022-11-26 04:41:00,289 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:41:00,290 - basicLogger - DEBUG - service health stored in database
+2022-11-26 04:41:00,972 - basicLogger - INFO - Health check initiated
+2022-11-26 04:41:15,287 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:41:15,288 - basicLogger - DEBUG - service health stored in database
+2022-11-26 04:41:15,970 - basicLogger - INFO - Health check initiated
+2022-11-26 04:41:30,281 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:41:30,282 - basicLogger - DEBUG - service health stored in database
+2022-11-26 04:41:30,965 - basicLogger - INFO - Health check initiated
+2022-11-26 04:41:45,278 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:41:45,279 - basicLogger - DEBUG - service health stored in database
+2022-11-26 04:41:45,961 - basicLogger - INFO - Health check initiated
+2022-11-26 04:42:00,277 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:42:00,278 - basicLogger - DEBUG - service health stored in database
+2022-11-26 04:42:00,960 - basicLogger - INFO - Health check initiated
+2022-11-26 04:42:15,278 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:42:15,279 - basicLogger - DEBUG - service health stored in database
+2022-11-26 04:42:15,961 - basicLogger - INFO - Health check initiated
+2022-11-26 04:42:30,308 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:42:30,310 - basicLogger - DEBUG - service health stored in database
+2022-11-26 04:42:30,962 - basicLogger - INFO - Health check initiated
+2022-11-26 04:42:45,276 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down']
+2022-11-26 04:42:45,278 - basicLogger - DEBUG - service health stored in database
+2022-11-26 04:44:59,815 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:45:04,823 - basicLogger - INFO - Health check initiated
+2022-11-26 04:45:19,139 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', datetime.datetime(2022, 11, 26, 4, 45, 4, 824098)]
+2022-11-26 04:45:19,142 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:45:19,823 - basicLogger - INFO - Health check initiated
+2022-11-26 04:45:34,137 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', datetime.datetime(2022, 11, 26, 4, 45, 19, 823584)]
+2022-11-26 04:45:34,138 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:45:34,819 - basicLogger - INFO - Health check initiated
+2022-11-26 04:45:49,134 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', datetime.datetime(2022, 11, 26, 4, 45, 34, 819975)]
+2022-11-26 04:45:49,135 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:46:02,494 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:46:07,512 - basicLogger - INFO - Health check initiated
+2022-11-26 04:46:21,842 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', '2022-11-26T04:46:07']
+2022-11-26 04:46:21,844 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:46:22,510 - basicLogger - INFO - Health check initiated
+2022-11-26 04:46:36,823 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', '2022-11-26T04:46:22']
+2022-11-26 04:46:36,824 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:46:37,507 - basicLogger - INFO - Health check initiated
+2022-11-26 04:46:51,819 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', '2022-11-26T04:46:37']
+2022-11-26 04:46:51,820 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:46:52,503 - basicLogger - INFO - Health check initiated
+2022-11-26 04:47:06,819 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', '2022-11-26T04:46:52']
+2022-11-26 04:47:06,820 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:48:15,955 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:48:20,959 - basicLogger - INFO - Health check initiated
+2022-11-26 04:48:35,273 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', datetime.datetime(2022, 11, 26, 4, 48, 20, 960104), 14.313501]
+2022-11-26 04:48:35,276 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:48:35,973 - basicLogger - INFO - Health check initiated
+2022-11-26 04:48:50,288 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', datetime.datetime(2022, 11, 26, 4, 48, 35, 973604), 14.315167]
+2022-11-26 04:48:50,290 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:51:48,287 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:52:24,365 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:52:29,382 - basicLogger - INFO - Health check initiated
+2022-11-26 04:52:43,692 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', datetime.datetime(2022, 11, 26, 4, 52, 43, 692448)]
+2022-11-26 04:52:49,534 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:52:54,384 - basicLogger - INFO - Health check initiated
+2022-11-26 04:53:08,697 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', datetime.datetime(2022, 11, 26, 4, 53, 8, 697325)]
+2022-11-26 04:53:14,562 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:53:19,373 - basicLogger - INFO - Health check initiated
+2022-11-26 04:53:33,687 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', datetime.datetime(2022, 11, 26, 4, 53, 33, 687949)]
+2022-11-26 04:53:39,539 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:54:28,438 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:54:33,446 - basicLogger - INFO - Health check initiated
+2022-11-26 04:54:47,772 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', '2022-11-26T04:54:47']
+2022-11-26 04:54:53,614 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:54:58,448 - basicLogger - INFO - Health check initiated
+2022-11-26 04:55:12,765 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', '2022-11-26T04:55:12']
+2022-11-26 04:55:18,606 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:55:23,456 - basicLogger - INFO - Health check initiated
+2022-11-26 04:55:37,772 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', '2022-11-26T04:55:37']
+2022-11-26 04:55:43,616 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:55:48,454 - basicLogger - INFO - Health check initiated
+2022-11-26 04:56:02,765 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', '2022-11-26T04:56:02']
+2022-11-26 04:56:08,609 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:56:13,445 - basicLogger - INFO - Health check initiated
+2022-11-26 04:56:27,757 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', '2022-11-26T04:56:27']
+2022-11-26 04:56:33,599 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:56:39,492 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:56:44,508 - basicLogger - INFO - Health check initiated
+2022-11-26 04:56:58,823 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', '2022-11-26T04:56:58']
+2022-11-26 04:56:59,630 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:57:04,512 - basicLogger - INFO - Health check initiated
+2022-11-26 04:57:18,829 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', '2022-11-26T04:57:18']
+2022-11-26 04:57:19,662 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:57:24,497 - basicLogger - INFO - Health check initiated
+2022-11-26 04:57:38,814 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', '2022-11-26T04:57:38']
+2022-11-26 04:57:39,631 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:58:02,992 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:58:08,008 - basicLogger - INFO - Health check initiated
+2022-11-26 04:58:20,287 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Running', '2022-11-26T04:58:20']
+2022-11-26 04:58:23,120 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:58:28,000 - basicLogger - INFO - Health check initiated
+2022-11-26 04:58:40,272 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Running', '2022-11-26T04:58:40']
+2022-11-26 04:58:43,102 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:58:47,999 - basicLogger - INFO - Health check initiated
+2022-11-26 04:59:00,272 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Running', '2022-11-26T04:59:00']
+2022-11-26 04:59:03,103 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:59:08,002 - basicLogger - INFO - Health check initiated
+2022-11-26 04:59:22,316 - basicLogger - DEBUG - responses: ['Running', 'Down', 'Down', 'Down', '2022-11-26T04:59:22']
+2022-11-26 04:59:23,122 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:59:30,226 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 04:59:35,241 - basicLogger - INFO - Health check initiated
+2022-11-26 04:59:51,596 - basicLogger - DEBUG - responses: ['Down', 'Down', 'Down', 'Down', '2022-11-26T04:59:51']
+2022-11-26 04:59:51,597 - basicLogger - INFO - Service health data stored to database
+2022-11-26 04:59:55,237 - basicLogger - INFO - Health check initiated
+2022-11-26 05:00:11,593 - basicLogger - DEBUG - responses: ['Down', 'Down', 'Down', 'Down', '2022-11-26T05:00:11']
+2022-11-26 05:00:11,594 - basicLogger - INFO - Service health data stored to database
+2022-11-26 05:00:15,234 - basicLogger - INFO - Health check initiated
+2022-11-26 05:00:31,603 - basicLogger - DEBUG - responses: ['Down', 'Down', 'Down', 'Down', '2022-11-26T05:00:31']
+2022-11-26 05:00:31,604 - basicLogger - INFO - Service health data stored to database
+2022-11-26 05:00:35,245 - basicLogger - INFO - Health check initiated
+2022-11-26 05:00:51,604 - basicLogger - DEBUG - responses: ['Down', 'Down', 'Down', 'Down', '2022-11-26T05:00:51']
+2022-11-26 05:00:51,605 - basicLogger - INFO - Service health data stored to database
+2022-11-26 05:00:55,232 - basicLogger - INFO - Health check initiated
+2022-11-26 05:01:11,592 - basicLogger - DEBUG - responses: ['Down', 'Down', 'Down', 'Down', '2022-11-26T05:01:11']
+2022-11-26 05:01:11,593 - basicLogger - INFO - Service health data stored to database
+2022-11-26 05:01:15,234 - basicLogger - INFO - Health check initiated
+2022-11-26 05:01:31,594 - basicLogger - DEBUG - responses: ['Down', 'Down', 'Down', 'Down', '2022-11-26T05:01:31']
+2022-11-26 05:01:31,595 - basicLogger - INFO - Service health data stored to database
+2022-11-26 05:17:24,465 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 05:17:29,469 - basicLogger - INFO - Health check initiated
+2022-11-26 05:17:45,835 - basicLogger - DEBUG - responses: ['Down', 'Down', 'Down', 'Down', '2022-11-26T05:17:45']
+2022-11-26 05:17:45,836 - basicLogger - INFO - Service health data stored to database
+2022-11-26 05:17:49,479 - basicLogger - INFO - Health check initiated
+2022-11-26 05:18:05,842 - basicLogger - DEBUG - responses: ['Down', 'Down', 'Down', 'Down', '2022-11-26T05:18:05']
+2022-11-26 05:18:05,843 - basicLogger - INFO - Service health data stored to database
+2022-11-26 05:18:09,471 - basicLogger - INFO - Health check initiated
+2022-11-26 05:18:25,831 - basicLogger - DEBUG - responses: ['Down', 'Down', 'Down', 'Down', '2022-11-26T05:18:25']
+2022-11-26 05:18:25,832 - basicLogger - INFO - Service health data stored to database
+2022-11-26 05:18:29,474 - basicLogger - INFO - Health check initiated
+2022-11-26 05:18:45,840 - basicLogger - DEBUG - responses: ['Down', 'Down', 'Down', 'Down', '2022-11-26T05:18:45']
+2022-11-26 05:18:45,841 - basicLogger - INFO - Service health data stored to database
+2022-11-26 05:20:55,970 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 05:21:00,977 - basicLogger - INFO - Health check initiated
+2022-11-26 05:21:17,336 - basicLogger - DEBUG - responses: ['Down', 'Down', 'Down', 'Down', '2022-11-26T05:21:17']
+2022-11-26 05:21:17,338 - basicLogger - INFO - Service health data stored to database
+2022-11-26 05:21:20,979 - basicLogger - INFO - Health check initiated
+2022-11-26 05:21:37,336 - basicLogger - DEBUG - responses: ['Down', 'Down', 'Down', 'Down', '2022-11-26T05:21:37']
+2022-11-26 05:21:37,337 - basicLogger - INFO - Service health data stored to database
+2022-11-26 05:21:41,375 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 05:21:46,388 - basicLogger - INFO - Health check initiated
+2022-11-26 05:22:02,747 - basicLogger - DEBUG - responses: ['Down', 'Down', 'Down', 'Down', '2022-11-26T05:22:02']
+2022-11-26 05:22:02,749 - basicLogger - INFO - Service health data stored to database
+2022-11-26 05:22:06,390 - basicLogger - INFO - Health check initiated
+2022-11-26 05:22:22,750 - basicLogger - DEBUG - responses: ['Down', 'Down', 'Down', 'Down', '2022-11-26T05:22:22']
+2022-11-26 05:22:22,752 - basicLogger - INFO - Service health data stored to database

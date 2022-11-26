@@ -20,6 +20,7 @@ with open('log_conf.yml', 'r') as f:
 logger = logging.getLogger('basicLogger')
 
 def get_health():
+    logger.debug('get health call')
     return NoContent, 200
 
 def withdraw_book(body):

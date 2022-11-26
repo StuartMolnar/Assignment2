@@ -22,19 +22,9 @@ paths:
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  message:
-                    type: string
-        '400':
-          description: Invalid request
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  message:
-                    type: string
+                type: string
+                example: '200'
+                
   /stats:
     get:
      summary: Gets the event stats

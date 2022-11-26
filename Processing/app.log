@@ -2733,3 +2733,972 @@ FROM stats ORDER BY stats.last_updated DESC
 2022-11-26 03:38:25,358 - basicLogger - DEBUG - returns_data = ['detail', 'status', 'title', 'type']
 2022-11-26 03:38:25,358 - basicLogger - DEBUG - returns_data = ['detail', 'status', 'title', 'type']
 2022-11-26 03:38:25,359 - basicLogger - DEBUG - bkreturn = detail
+2022-11-26 03:50:18,015 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 03:50:23,031 - basicLogger - INFO - 2022-11-26 03:50:23.031235
+2022-11-26 03:50:25,118 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:50:23Z
+2022-11-26 03:50:25,119 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:50:25,120 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:50:27,176 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:50:23Z
+2022-11-26 03:50:27,177 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:50:27,179 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:50:27,179 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:50:28,036 - basicLogger - INFO - 2022-11-26 03:50:28.036735
+2022-11-26 03:50:30,087 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:50:28Z
+2022-11-26 03:50:30,088 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:50:30,089 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:50:32,149 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:50:28Z
+2022-11-26 03:50:32,150 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:50:32,151 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:50:32,152 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:50:33,028 - basicLogger - INFO - 2022-11-26 03:50:33.028667
+2022-11-26 03:50:35,081 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:50:33Z
+2022-11-26 03:50:35,082 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:50:35,083 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:50:37,138 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:50:33Z
+2022-11-26 03:50:37,139 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:50:37,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:50:37,141 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:50:38,033 - basicLogger - INFO - 2022-11-26 03:50:38.033699
+2022-11-26 03:50:40,085 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:50:38Z
+2022-11-26 03:50:40,086 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:50:40,087 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:50:42,145 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:50:38Z
+2022-11-26 03:50:42,147 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:50:42,147 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:50:42,148 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:50:43,024 - basicLogger - INFO - 2022-11-26 03:50:43.024942
+2022-11-26 03:50:45,078 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:50:43Z
+2022-11-26 03:50:45,079 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:50:45,080 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:50:47,135 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:50:43Z
+2022-11-26 03:50:47,136 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:50:47,137 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:50:47,138 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:50:48,030 - basicLogger - INFO - 2022-11-26 03:50:48.030454
+2022-11-26 03:50:50,082 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:50:48Z
+2022-11-26 03:50:50,083 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:50:50,083 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:50:52,140 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:50:48Z
+2022-11-26 03:50:52,141 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:50:52,142 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:50:52,142 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:50:53,034 - basicLogger - INFO - 2022-11-26 03:50:53.034953
+2022-11-26 03:50:55,085 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:50:53Z
+2022-11-26 03:50:55,087 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:50:55,088 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:50:57,145 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:50:53Z
+2022-11-26 03:50:57,146 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:50:57,147 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:50:57,148 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:50:58,025 - basicLogger - INFO - 2022-11-26 03:50:58.025472
+2022-11-26 03:51:00,073 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:50:58Z
+2022-11-26 03:51:00,075 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:51:00,075 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:51:02,134 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:50:58Z
+2022-11-26 03:51:02,135 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:51:02,136 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:02,137 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:03,028 - basicLogger - INFO - 2022-11-26 03:51:03.027825
+2022-11-26 03:51:05,077 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:51:03Z
+2022-11-26 03:51:05,078 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:51:05,079 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:51:07,137 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:51:03Z
+2022-11-26 03:51:07,138 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:51:07,139 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:07,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:08,032 - basicLogger - INFO - 2022-11-26 03:51:08.032473
+2022-11-26 03:51:10,091 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:51:08Z
+2022-11-26 03:51:10,094 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:51:10,096 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:51:12,146 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:51:08Z
+2022-11-26 03:51:12,147 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:51:12,148 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:12,148 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:13,042 - basicLogger - INFO - 2022-11-26 03:51:13.042858
+2022-11-26 03:51:15,086 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:51:13Z
+2022-11-26 03:51:15,087 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:51:15,088 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:51:17,131 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:51:13Z
+2022-11-26 03:51:17,134 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:51:17,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:17,137 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:18,024 - basicLogger - INFO - 2022-11-26 03:51:18.024338
+2022-11-26 03:51:20,073 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:51:18Z
+2022-11-26 03:51:20,074 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:51:20,075 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:51:22,134 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:51:18Z
+2022-11-26 03:51:22,135 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:51:22,136 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:22,137 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:23,028 - basicLogger - INFO - 2022-11-26 03:51:23.028246
+2022-11-26 03:51:25,109 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:51:23Z
+2022-11-26 03:51:25,110 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:51:25,111 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:51:27,169 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:51:23Z
+2022-11-26 03:51:27,171 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:51:27,171 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:27,172 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:28,038 - basicLogger - INFO - 2022-11-26 03:51:28.038247
+2022-11-26 03:51:30,103 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:51:28Z
+2022-11-26 03:51:30,104 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:51:30,105 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:51:32,162 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:51:28Z
+2022-11-26 03:51:32,164 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:51:32,165 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:32,166 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:33,025 - basicLogger - INFO - 2022-11-26 03:51:33.025596
+2022-11-26 03:51:35,075 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:51:33Z
+2022-11-26 03:51:35,076 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:51:35,077 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:51:37,120 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:51:33Z
+2022-11-26 03:51:37,121 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:51:37,122 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:37,123 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:38,030 - basicLogger - INFO - 2022-11-26 03:51:38.030829
+2022-11-26 03:51:40,080 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:51:38Z
+2022-11-26 03:51:40,081 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:51:40,081 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:51:42,142 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:51:38Z
+2022-11-26 03:51:42,143 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:51:42,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:42,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:43,035 - basicLogger - INFO - 2022-11-26 03:51:43.035342
+2022-11-26 03:51:45,084 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:51:43Z
+2022-11-26 03:51:45,085 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:51:45,086 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:51:47,148 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:51:43Z
+2022-11-26 03:51:47,149 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:51:47,150 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:47,150 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:48,024 - basicLogger - INFO - 2022-11-26 03:51:48.024321
+2022-11-26 03:51:50,076 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:51:48Z
+2022-11-26 03:51:50,078 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:51:50,078 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:51:52,134 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:51:48Z
+2022-11-26 03:51:52,135 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:51:52,136 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:52,137 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:53,028 - basicLogger - INFO - 2022-11-26 03:51:53.028322
+2022-11-26 03:51:55,079 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:51:53Z
+2022-11-26 03:51:55,080 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:51:55,081 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:51:57,146 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:51:53Z
+2022-11-26 03:51:57,148 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:51:57,149 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:57,150 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:51:58,033 - basicLogger - INFO - 2022-11-26 03:51:58.033822
+2022-11-26 03:52:00,082 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:51:58Z
+2022-11-26 03:52:00,083 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:52:00,084 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:52:02,143 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:51:58Z
+2022-11-26 03:52:02,144 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:52:02,145 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:02,146 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:03,022 - basicLogger - INFO - 2022-11-26 03:52:03.022409
+2022-11-26 03:52:05,072 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:52:03Z
+2022-11-26 03:52:05,073 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:52:05,074 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:52:07,132 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:52:03Z
+2022-11-26 03:52:07,133 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:52:07,134 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:07,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:08,027 - basicLogger - INFO - 2022-11-26 03:52:08.027852
+2022-11-26 03:52:10,077 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:52:08Z
+2022-11-26 03:52:10,078 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:52:10,078 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:52:12,138 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:52:08Z
+2022-11-26 03:52:12,139 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:52:12,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:12,141 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:13,033 - basicLogger - INFO - 2022-11-26 03:52:13.033788
+2022-11-26 03:52:15,082 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:52:13Z
+2022-11-26 03:52:15,083 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:52:15,084 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:52:17,142 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:52:13Z
+2022-11-26 03:52:17,143 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:52:17,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:17,145 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:18,021 - basicLogger - INFO - 2022-11-26 03:52:18.021787
+2022-11-26 03:52:20,071 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:52:18Z
+2022-11-26 03:52:20,073 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:52:20,074 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:52:22,130 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:52:18Z
+2022-11-26 03:52:22,131 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:52:22,131 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:22,132 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:23,025 - basicLogger - INFO - 2022-11-26 03:52:23.025289
+2022-11-26 03:52:25,082 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:52:23Z
+2022-11-26 03:52:25,083 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:52:25,084 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:52:27,141 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:52:23Z
+2022-11-26 03:52:27,142 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:52:27,143 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:27,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:28,033 - basicLogger - INFO - 2022-11-26 03:52:28.033069
+2022-11-26 03:52:30,082 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:52:28Z
+2022-11-26 03:52:30,083 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:52:30,084 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:52:32,143 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:52:28Z
+2022-11-26 03:52:32,144 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:52:32,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:32,145 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:33,022 - basicLogger - INFO - 2022-11-26 03:52:33.022069
+2022-11-26 03:52:35,072 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:52:33Z
+2022-11-26 03:52:35,073 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:52:35,073 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:52:37,133 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:52:33Z
+2022-11-26 03:52:37,134 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:52:37,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:37,136 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:38,028 - basicLogger - INFO - 2022-11-26 03:52:38.028631
+2022-11-26 03:52:40,082 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:52:38Z
+2022-11-26 03:52:40,084 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:52:40,085 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:52:42,139 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:52:38Z
+2022-11-26 03:52:42,140 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:52:42,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:42,141 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:43,034 - basicLogger - INFO - 2022-11-26 03:52:43.034126
+2022-11-26 03:52:45,084 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:52:43Z
+2022-11-26 03:52:45,085 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:52:45,086 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:52:47,144 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:52:43Z
+2022-11-26 03:52:47,145 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:52:47,146 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:47,147 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:48,026 - basicLogger - INFO - 2022-11-26 03:52:48.026178
+2022-11-26 03:52:50,093 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:52:48Z
+2022-11-26 03:52:50,094 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:52:50,095 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:52:52,147 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:52:48Z
+2022-11-26 03:52:52,149 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:52:52,149 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:52,150 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:53,029 - basicLogger - INFO - 2022-11-26 03:52:53.029411
+2022-11-26 03:52:55,077 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:52:53Z
+2022-11-26 03:52:55,078 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:52:55,078 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:52:57,137 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:52:53Z
+2022-11-26 03:52:57,138 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:52:57,139 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:57,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:52:58,031 - basicLogger - INFO - 2022-11-26 03:52:58.031581
+2022-11-26 03:53:00,082 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:52:58Z
+2022-11-26 03:53:00,083 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:53:00,084 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:53:02,142 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:52:58Z
+2022-11-26 03:53:02,143 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:53:02,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:02,145 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:03,036 - basicLogger - INFO - 2022-11-26 03:53:03.036588
+2022-11-26 03:53:05,088 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:53:03Z
+2022-11-26 03:53:05,089 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:53:05,089 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:53:07,147 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:53:03Z
+2022-11-26 03:53:07,148 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:53:07,148 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:07,149 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:08,026 - basicLogger - INFO - 2022-11-26 03:53:08.026245
+2022-11-26 03:53:10,078 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:53:08Z
+2022-11-26 03:53:10,079 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:53:10,080 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:53:12,136 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:53:08Z
+2022-11-26 03:53:12,138 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:53:12,139 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:12,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:13,030 - basicLogger - INFO - 2022-11-26 03:53:13.030329
+2022-11-26 03:53:15,080 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:53:13Z
+2022-11-26 03:53:15,081 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:53:15,082 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:53:17,141 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:53:13Z
+2022-11-26 03:53:17,142 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:53:17,143 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:17,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:18,036 - basicLogger - INFO - 2022-11-26 03:53:18.036146
+2022-11-26 03:53:20,087 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:53:18Z
+2022-11-26 03:53:20,088 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:53:20,089 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:53:22,151 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:53:18Z
+2022-11-26 03:53:22,152 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:53:22,152 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:22,153 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:23,025 - basicLogger - INFO - 2022-11-26 03:53:23.025144
+2022-11-26 03:53:25,073 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:53:23Z
+2022-11-26 03:53:25,074 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:53:25,075 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:53:27,120 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:53:23Z
+2022-11-26 03:53:27,121 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:53:27,122 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:27,123 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:28,032 - basicLogger - INFO - 2022-11-26 03:53:28.032145
+2022-11-26 03:53:30,081 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:53:28Z
+2022-11-26 03:53:30,082 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:53:30,083 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:53:32,140 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:53:28Z
+2022-11-26 03:53:32,141 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:53:32,142 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:32,143 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:33,035 - basicLogger - INFO - 2022-11-26 03:53:33.035550
+2022-11-26 03:53:35,084 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:53:33Z
+2022-11-26 03:53:35,085 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:53:35,086 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:53:37,145 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:53:33Z
+2022-11-26 03:53:37,146 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:53:37,147 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:37,147 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:38,024 - basicLogger - INFO - 2022-11-26 03:53:38.024377
+2022-11-26 03:53:40,074 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:53:38Z
+2022-11-26 03:53:40,075 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:53:40,076 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:53:42,133 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:53:38Z
+2022-11-26 03:53:42,135 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:53:42,136 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:42,136 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:43,028 - basicLogger - INFO - 2022-11-26 03:53:43.028357
+2022-11-26 03:53:45,077 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:53:43Z
+2022-11-26 03:53:45,078 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:53:45,079 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:53:47,137 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:53:43Z
+2022-11-26 03:53:47,138 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:53:47,139 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:47,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:48,032 - basicLogger - INFO - 2022-11-26 03:53:48.032857
+2022-11-26 03:53:50,082 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:53:48Z
+2022-11-26 03:53:50,083 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:53:50,084 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:53:52,143 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:53:48Z
+2022-11-26 03:53:52,144 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:53:52,145 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:52,146 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:53,023 - basicLogger - INFO - 2022-11-26 03:53:53.023152
+2022-11-26 03:53:55,073 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:53:53Z
+2022-11-26 03:53:55,074 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:53:55,075 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:53:57,133 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:53:53Z
+2022-11-26 03:53:57,134 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:53:57,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:57,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:53:58,028 - basicLogger - INFO - 2022-11-26 03:53:58.028151
+2022-11-26 03:54:00,077 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:53:58Z
+2022-11-26 03:54:00,078 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:54:00,079 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:54:02,138 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:53:58Z
+2022-11-26 03:54:02,139 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:54:02,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:02,141 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:03,034 - basicLogger - INFO - 2022-11-26 03:54:03.034374
+2022-11-26 03:54:05,083 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:54:03Z
+2022-11-26 03:54:05,084 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:54:05,085 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:54:07,144 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:54:03Z
+2022-11-26 03:54:07,145 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:54:07,146 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:07,146 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:08,023 - basicLogger - INFO - 2022-11-26 03:54:08.023380
+2022-11-26 03:54:10,074 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:54:08Z
+2022-11-26 03:54:10,075 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:54:10,075 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:54:12,133 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:54:08Z
+2022-11-26 03:54:12,134 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:54:12,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:12,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:13,027 - basicLogger - INFO - 2022-11-26 03:54:13.027737
+2022-11-26 03:54:15,077 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:54:13Z
+2022-11-26 03:54:15,078 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:54:15,079 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:54:17,139 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:54:13Z
+2022-11-26 03:54:17,140 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:54:17,141 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:17,141 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:18,032 - basicLogger - INFO - 2022-11-26 03:54:18.032747
+2022-11-26 03:54:20,080 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:54:18Z
+2022-11-26 03:54:20,082 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:54:20,082 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:54:22,140 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:54:18Z
+2022-11-26 03:54:22,142 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:54:22,142 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:22,143 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:23,019 - basicLogger - INFO - 2022-11-26 03:54:23.019395
+2022-11-26 03:54:25,067 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:54:23Z
+2022-11-26 03:54:25,069 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:54:25,069 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:54:27,112 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:54:23Z
+2022-11-26 03:54:27,113 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:54:27,113 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:27,114 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:28,022 - basicLogger - INFO - 2022-11-26 03:54:28.022880
+2022-11-26 03:54:30,072 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:54:28Z
+2022-11-26 03:54:30,073 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:54:30,074 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:54:32,133 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:54:28Z
+2022-11-26 03:54:32,134 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:54:32,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:32,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:33,026 - basicLogger - INFO - 2022-11-26 03:54:33.026135
+2022-11-26 03:54:35,075 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:54:33Z
+2022-11-26 03:54:35,076 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:54:35,077 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:54:37,136 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:54:33Z
+2022-11-26 03:54:37,138 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:54:37,138 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:37,139 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:38,030 - basicLogger - INFO - 2022-11-26 03:54:38.030952
+2022-11-26 03:54:40,079 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:54:38Z
+2022-11-26 03:54:40,081 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:54:40,082 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:54:42,140 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:54:38Z
+2022-11-26 03:54:42,141 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:54:42,142 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:42,142 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:43,035 - basicLogger - INFO - 2022-11-26 03:54:43.035080
+2022-11-26 03:54:45,084 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:54:43Z
+2022-11-26 03:54:45,086 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:54:45,086 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:54:47,146 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:54:43Z
+2022-11-26 03:54:47,147 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:54:47,148 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:47,148 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:48,024 - basicLogger - INFO - 2022-11-26 03:54:48.024581
+2022-11-26 03:54:50,073 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:54:48Z
+2022-11-26 03:54:50,074 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:54:50,075 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:54:52,134 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:54:48Z
+2022-11-26 03:54:52,135 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:54:52,136 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:52,136 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:53,029 - basicLogger - INFO - 2022-11-26 03:54:53.029317
+2022-11-26 03:54:55,081 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:54:53Z
+2022-11-26 03:54:55,082 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:54:55,083 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:54:57,140 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:54:53Z
+2022-11-26 03:54:57,142 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:54:57,142 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:57,143 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:54:58,036 - basicLogger - INFO - 2022-11-26 03:54:58.036402
+2022-11-26 03:55:00,086 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:54:58Z
+2022-11-26 03:55:00,088 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:55:00,089 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:55:02,146 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:54:58Z
+2022-11-26 03:55:02,147 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:55:02,148 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:02,149 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:03,026 - basicLogger - INFO - 2022-11-26 03:55:03.026493
+2022-11-26 03:55:05,076 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:55:03Z
+2022-11-26 03:55:05,077 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:55:05,078 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:55:07,135 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:55:03Z
+2022-11-26 03:55:07,136 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:55:07,137 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:07,138 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:08,030 - basicLogger - INFO - 2022-11-26 03:55:08.030787
+2022-11-26 03:55:10,080 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:55:08Z
+2022-11-26 03:55:10,081 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:55:10,082 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:55:12,140 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:55:08Z
+2022-11-26 03:55:12,141 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:55:12,142 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:12,143 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:13,035 - basicLogger - INFO - 2022-11-26 03:55:13.035040
+2022-11-26 03:55:15,085 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:55:13Z
+2022-11-26 03:55:15,086 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:55:15,087 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:55:17,142 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:55:13Z
+2022-11-26 03:55:17,143 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:55:17,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:17,145 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:18,022 - basicLogger - INFO - 2022-11-26 03:55:18.022942
+2022-11-26 03:55:20,072 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:55:18Z
+2022-11-26 03:55:20,073 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:55:20,074 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:55:22,134 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:55:18Z
+2022-11-26 03:55:22,135 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:55:22,136 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:22,137 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:23,028 - basicLogger - INFO - 2022-11-26 03:55:23.028445
+2022-11-26 03:55:25,078 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:55:23Z
+2022-11-26 03:55:25,079 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:55:25,080 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:55:27,141 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:55:23Z
+2022-11-26 03:55:27,142 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:55:27,143 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:27,143 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:28,033 - basicLogger - INFO - 2022-11-26 03:55:28.033443
+2022-11-26 03:55:30,082 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:55:28Z
+2022-11-26 03:55:30,083 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:55:30,084 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:55:32,142 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:55:28Z
+2022-11-26 03:55:32,143 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:55:32,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:32,145 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:33,020 - basicLogger - INFO - 2022-11-26 03:55:33.020552
+2022-11-26 03:55:35,069 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:55:33Z
+2022-11-26 03:55:35,070 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:55:35,071 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:55:37,132 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:55:33Z
+2022-11-26 03:55:37,133 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:55:37,134 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:37,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:38,046 - basicLogger - INFO - 2022-11-26 03:55:38.046296
+2022-11-26 03:55:40,106 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:55:38Z
+2022-11-26 03:55:40,107 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:55:40,108 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:55:42,166 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:55:38Z
+2022-11-26 03:55:42,167 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:55:42,168 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:42,169 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:43,045 - basicLogger - INFO - 2022-11-26 03:55:43.045301
+2022-11-26 03:55:45,093 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:55:43Z
+2022-11-26 03:55:45,094 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:55:45,095 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:55:47,154 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:55:43Z
+2022-11-26 03:55:47,155 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:55:47,156 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:47,157 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:48,033 - basicLogger - INFO - 2022-11-26 03:55:48.033028
+2022-11-26 03:55:50,085 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:55:48Z
+2022-11-26 03:55:50,086 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:55:50,087 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:55:52,147 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:55:48Z
+2022-11-26 03:55:52,148 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:55:52,149 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:52,150 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:53,024 - basicLogger - INFO - 2022-11-26 03:55:53.024530
+2022-11-26 03:55:55,074 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:55:53Z
+2022-11-26 03:55:55,075 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:55:55,075 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:55:57,133 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:55:53Z
+2022-11-26 03:55:57,134 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:55:57,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:57,136 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:55:58,031 - basicLogger - INFO - 2022-11-26 03:55:58.031529
+2022-11-26 03:56:00,093 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:55:58Z
+2022-11-26 03:56:00,094 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:56:00,095 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:56:02,153 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:55:58Z
+2022-11-26 03:56:02,154 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:56:02,155 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:02,156 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:03,033 - basicLogger - INFO - 2022-11-26 03:56:03.033971
+2022-11-26 03:56:05,083 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:56:03Z
+2022-11-26 03:56:05,084 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:56:05,085 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:56:07,143 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:56:03Z
+2022-11-26 03:56:07,144 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:56:07,145 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:07,146 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:08,022 - basicLogger - INFO - 2022-11-26 03:56:08.021739
+2022-11-26 03:56:10,072 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:56:08Z
+2022-11-26 03:56:10,073 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:56:10,074 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:56:12,132 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:56:08Z
+2022-11-26 03:56:12,133 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:56:12,134 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:12,134 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:13,026 - basicLogger - INFO - 2022-11-26 03:56:13.026091
+2022-11-26 03:56:15,075 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:56:13Z
+2022-11-26 03:56:15,076 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:56:15,077 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:56:17,138 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:56:13Z
+2022-11-26 03:56:17,139 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:56:17,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:17,141 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:18,030 - basicLogger - INFO - 2022-11-26 03:56:18.030092
+2022-11-26 03:56:20,081 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:56:18Z
+2022-11-26 03:56:20,082 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:56:20,083 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:56:22,140 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:56:18Z
+2022-11-26 03:56:22,141 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:56:22,142 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:22,143 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:23,052 - basicLogger - INFO - 2022-11-26 03:56:23.052685
+2022-11-26 03:56:25,114 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:56:23Z
+2022-11-26 03:56:25,115 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:56:25,116 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:56:27,174 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:56:23Z
+2022-11-26 03:56:27,175 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:56:27,176 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:27,177 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:28,022 - basicLogger - INFO - 2022-11-26 03:56:28.022821
+2022-11-26 03:56:30,072 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:56:28Z
+2022-11-26 03:56:30,073 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:56:30,074 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:56:32,140 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:56:28Z
+2022-11-26 03:56:32,141 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:56:32,142 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:32,143 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:33,027 - basicLogger - INFO - 2022-11-26 03:56:33.027295
+2022-11-26 03:56:35,075 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:56:33Z
+2022-11-26 03:56:35,076 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:56:35,077 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:56:37,136 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:56:33Z
+2022-11-26 03:56:37,137 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:56:37,138 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:37,138 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:38,030 - basicLogger - INFO - 2022-11-26 03:56:38.030794
+2022-11-26 03:56:40,079 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:56:38Z
+2022-11-26 03:56:40,080 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:56:40,081 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:56:42,141 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:56:38Z
+2022-11-26 03:56:42,142 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:56:42,143 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:42,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:43,035 - basicLogger - INFO - 2022-11-26 03:56:43.035295
+2022-11-26 03:56:45,087 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:56:43Z
+2022-11-26 03:56:45,088 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:56:45,088 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:56:47,146 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:56:43Z
+2022-11-26 03:56:47,147 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:56:47,148 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:47,148 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:48,027 - basicLogger - INFO - 2022-11-26 03:56:48.027738
+2022-11-26 03:56:50,076 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:56:48Z
+2022-11-26 03:56:50,077 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:56:50,078 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:56:52,136 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:56:48Z
+2022-11-26 03:56:52,137 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:56:52,138 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:52,139 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:53,031 - basicLogger - INFO - 2022-11-26 03:56:53.031730
+2022-11-26 03:56:55,085 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:56:53Z
+2022-11-26 03:56:55,086 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:56:55,088 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:56:57,152 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:56:53Z
+2022-11-26 03:56:57,158 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:56:57,160 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:57,162 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:56:58,039 - basicLogger - INFO - 2022-11-26 03:56:58.039732
+2022-11-26 03:57:00,110 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:56:58Z
+2022-11-26 03:57:00,113 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:57:00,114 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:57:02,188 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:56:58Z
+2022-11-26 03:57:02,190 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:57:02,191 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:02,192 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:03,028 - basicLogger - INFO - 2022-11-26 03:57:03.028731
+2022-11-26 03:57:05,079 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:57:03Z
+2022-11-26 03:57:05,081 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:57:05,082 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:57:07,142 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:57:03Z
+2022-11-26 03:57:07,144 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:57:07,145 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:07,146 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:08,034 - basicLogger - INFO - 2022-11-26 03:57:08.034732
+2022-11-26 03:57:10,088 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:57:08Z
+2022-11-26 03:57:10,090 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:57:10,091 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:57:12,150 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:57:08Z
+2022-11-26 03:57:12,152 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:57:12,153 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:12,154 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:13,026 - basicLogger - INFO - 2022-11-26 03:57:13.026233
+2022-11-26 03:57:15,077 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:57:13Z
+2022-11-26 03:57:15,078 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:57:15,079 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:57:17,138 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:57:13Z
+2022-11-26 03:57:17,140 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:57:17,141 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:17,141 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:18,033 - basicLogger - INFO - 2022-11-26 03:57:18.033732
+2022-11-26 03:57:20,102 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:57:18Z
+2022-11-26 03:57:20,104 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:57:20,105 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:57:22,166 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:57:18Z
+2022-11-26 03:57:22,168 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:57:22,169 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:22,170 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:23,025 - basicLogger - INFO - 2022-11-26 03:57:23.024735
+2022-11-26 03:57:25,268 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:57:23Z
+2022-11-26 03:57:25,269 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:57:25,270 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:57:27,480 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:57:23Z
+2022-11-26 03:57:27,482 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:57:27,483 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:27,484 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:28,033 - basicLogger - INFO - 2022-11-26 03:57:28.033233
+2022-11-26 03:57:30,658 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:57:28Z
+2022-11-26 03:57:30,660 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:57:30,662 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:57:33,042 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:57:28Z
+2022-11-26 03:57:33,043 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:57:33,044 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:33,045 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:38,044 - basicLogger - INFO - 2022-11-26 03:57:38.044234
+2022-11-26 03:57:40,111 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:57:38Z
+2022-11-26 03:57:40,112 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:57:40,113 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:57:42,174 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:57:38Z
+2022-11-26 03:57:42,175 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:57:42,176 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:42,177 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:43,034 - basicLogger - INFO - 2022-11-26 03:57:43.034232
+2022-11-26 03:57:45,084 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:57:43Z
+2022-11-26 03:57:45,086 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:57:45,087 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:57:47,146 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:57:43Z
+2022-11-26 03:57:47,147 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:57:47,148 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:47,149 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:48,024 - basicLogger - INFO - 2022-11-26 03:57:48.024730
+2022-11-26 03:57:50,075 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:57:48Z
+2022-11-26 03:57:50,076 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:57:50,077 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:57:52,134 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:57:48Z
+2022-11-26 03:57:52,135 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:57:52,136 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:52,137 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:53,029 - basicLogger - INFO - 2022-11-26 03:57:53.029608
+2022-11-26 03:57:55,082 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:57:53Z
+2022-11-26 03:57:55,084 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:57:55,085 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:57:57,138 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:57:53Z
+2022-11-26 03:57:57,139 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:57:57,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:57,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:57:58,032 - basicLogger - INFO - 2022-11-26 03:57:58.032607
+2022-11-26 03:58:00,082 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:57:58Z
+2022-11-26 03:58:00,083 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:58:00,084 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:58:02,146 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:57:58Z
+2022-11-26 03:58:02,147 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:58:02,148 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:02,149 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:03,023 - basicLogger - INFO - 2022-11-26 03:58:03.023277
+2022-11-26 03:58:05,075 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:58:03Z
+2022-11-26 03:58:05,076 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:58:05,077 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:58:07,133 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:58:03Z
+2022-11-26 03:58:07,134 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:58:07,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:07,136 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:08,028 - basicLogger - INFO - 2022-11-26 03:58:08.028786
+2022-11-26 03:58:10,078 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:58:08Z
+2022-11-26 03:58:10,080 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:58:10,081 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:58:12,129 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:58:08Z
+2022-11-26 03:58:12,130 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:58:12,130 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:12,131 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:13,039 - basicLogger - INFO - 2022-11-26 03:58:13.039657
+2022-11-26 03:58:15,089 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:58:13Z
+2022-11-26 03:58:15,090 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:58:15,091 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:58:17,149 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:58:13Z
+2022-11-26 03:58:17,150 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:58:17,151 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:17,152 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:18,028 - basicLogger - INFO - 2022-11-26 03:58:18.028529
+2022-11-26 03:58:20,078 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:58:18Z
+2022-11-26 03:58:20,079 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:58:20,079 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:58:22,139 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:58:18Z
+2022-11-26 03:58:22,140 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:58:22,141 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:22,142 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:23,035 - basicLogger - INFO - 2022-11-26 03:58:23.035640
+2022-11-26 03:58:25,083 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:58:23Z
+2022-11-26 03:58:25,084 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:58:25,085 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:58:27,144 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:58:23Z
+2022-11-26 03:58:27,146 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:58:27,147 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:27,148 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:28,022 - basicLogger - INFO - 2022-11-26 03:58:28.022650
+2022-11-26 03:58:30,072 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:58:28Z
+2022-11-26 03:58:30,073 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:58:30,073 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:58:32,133 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:58:28Z
+2022-11-26 03:58:32,134 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:58:32,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:32,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:33,026 - basicLogger - INFO - 2022-11-26 03:58:33.026966
+2022-11-26 03:58:35,075 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:58:33Z
+2022-11-26 03:58:35,076 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:58:35,077 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:58:37,133 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:58:33Z
+2022-11-26 03:58:37,134 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:58:37,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:37,136 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:38,028 - basicLogger - INFO - 2022-11-26 03:58:38.028295
+2022-11-26 03:58:40,078 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:58:38Z
+2022-11-26 03:58:40,079 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:58:40,080 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:58:42,137 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:58:38Z
+2022-11-26 03:58:42,138 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:58:42,139 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:42,139 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:43,032 - basicLogger - INFO - 2022-11-26 03:58:43.032790
+2022-11-26 03:58:45,081 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:58:43Z
+2022-11-26 03:58:45,082 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:58:45,083 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:58:47,142 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:58:43Z
+2022-11-26 03:58:47,144 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:58:47,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:47,145 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:48,021 - basicLogger - INFO - 2022-11-26 03:58:48.021321
+2022-11-26 03:58:50,071 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:58:48Z
+2022-11-26 03:58:50,072 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:58:50,072 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:58:52,130 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:58:48Z
+2022-11-26 03:58:52,131 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:58:52,132 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:52,133 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:53,025 - basicLogger - INFO - 2022-11-26 03:58:53.025231
+2022-11-26 03:58:55,076 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:58:53Z
+2022-11-26 03:58:55,077 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:58:55,078 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:58:57,134 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:58:53Z
+2022-11-26 03:58:57,135 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:58:57,136 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:57,137 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:58:58,030 - basicLogger - INFO - 2022-11-26 03:58:58.029774
+2022-11-26 03:59:00,077 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:58:58Z
+2022-11-26 03:59:00,078 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:59:00,079 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:59:02,138 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:58:58Z
+2022-11-26 03:59:02,140 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:59:02,141 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:02,142 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:03,032 - basicLogger - INFO - 2022-11-26 03:59:03.032877
+2022-11-26 03:59:05,080 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:59:03Z
+2022-11-26 03:59:05,082 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:59:05,082 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:59:07,142 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:59:03Z
+2022-11-26 03:59:07,143 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:59:07,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:07,145 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:08,020 - basicLogger - INFO - 2022-11-26 03:59:08.020371
+2022-11-26 03:59:10,070 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:59:08Z
+2022-11-26 03:59:10,071 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:59:10,072 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:59:12,131 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:59:08Z
+2022-11-26 03:59:12,132 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:59:12,133 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:12,133 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:13,024 - basicLogger - INFO - 2022-11-26 03:59:13.024871
+2022-11-26 03:59:15,075 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:59:13Z
+2022-11-26 03:59:15,076 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:59:15,077 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:59:17,133 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:59:13Z
+2022-11-26 03:59:17,134 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:59:17,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:17,135 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:18,029 - basicLogger - INFO - 2022-11-26 03:59:18.029424
+2022-11-26 03:59:20,077 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:59:18Z
+2022-11-26 03:59:20,079 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:59:20,080 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:59:22,137 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:59:18Z
+2022-11-26 03:59:22,138 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:59:22,139 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:22,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:23,031 - basicLogger - INFO - 2022-11-26 03:59:23.031923
+2022-11-26 03:59:25,081 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:59:23Z
+2022-11-26 03:59:25,082 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:59:25,083 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:59:27,140 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:59:23Z
+2022-11-26 03:59:27,142 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:59:27,142 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:27,143 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:28,036 - basicLogger - INFO - 2022-11-26 03:59:28.036423
+2022-11-26 03:59:30,083 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:59:28Z
+2022-11-26 03:59:30,085 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:59:30,085 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:59:32,145 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:59:28Z
+2022-11-26 03:59:32,146 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:59:32,147 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:32,147 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:33,024 - basicLogger - INFO - 2022-11-26 03:59:33.024044
+2022-11-26 03:59:35,074 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:59:33Z
+2022-11-26 03:59:35,075 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:59:35,076 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:59:37,135 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:59:33Z
+2022-11-26 03:59:37,136 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:59:37,137 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:37,138 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:38,029 - basicLogger - INFO - 2022-11-26 03:59:38.029742
+2022-11-26 03:59:40,078 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:59:38Z
+2022-11-26 03:59:40,079 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:59:40,079 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:59:42,137 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:59:38Z
+2022-11-26 03:59:42,138 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:59:42,139 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:42,139 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:43,031 - basicLogger - INFO - 2022-11-26 03:59:43.031742
+2022-11-26 03:59:45,081 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:59:43Z
+2022-11-26 03:59:45,082 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:59:45,083 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:59:47,142 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:59:43Z
+2022-11-26 03:59:47,143 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:59:47,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:47,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:48,036 - basicLogger - INFO - 2022-11-26 03:59:48.036315
+2022-11-26 03:59:50,086 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:59:48Z
+2022-11-26 03:59:50,088 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:59:50,089 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:59:52,146 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:59:48Z
+2022-11-26 03:59:52,148 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:59:52,148 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:52,149 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:53,024 - basicLogger - INFO - 2022-11-26 03:59:53.024815
+2022-11-26 03:59:55,081 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:59:53Z
+2022-11-26 03:59:55,082 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 03:59:55,083 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 03:59:57,137 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:59:53Z
+2022-11-26 03:59:57,138 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 03:59:57,139 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:57,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 03:59:58,029 - basicLogger - INFO - 2022-11-26 03:59:58.029390
+2022-11-26 04:00:00,077 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:59:58Z
+2022-11-26 04:00:00,079 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 04:00:00,079 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 04:00:02,138 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:59:58Z
+2022-11-26 04:00:02,139 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 04:00:02,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 04:00:02,141 - basicLogger - DEBUG - returns_data = []
+2022-11-26 04:00:03,032 - basicLogger - INFO - 2022-11-26 04:00:03.032532
+2022-11-26 04:00:05,080 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T04:00:03Z
+2022-11-26 04:00:05,082 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 04:00:05,083 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 04:00:07,141 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T04:00:03Z
+2022-11-26 04:00:07,142 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 04:00:07,143 - basicLogger - DEBUG - returns_data = []
+2022-11-26 04:00:07,144 - basicLogger - DEBUG - returns_data = []
+2022-11-26 04:00:08,020 - basicLogger - INFO - 2022-11-26 04:00:08.020766
+2022-11-26 04:00:10,069 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T04:00:08Z
+2022-11-26 04:00:10,070 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 04:00:10,071 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 04:00:12,128 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T04:00:08Z
+2022-11-26 04:00:12,130 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 04:00:12,131 - basicLogger - DEBUG - returns_data = []
+2022-11-26 04:00:12,131 - basicLogger - DEBUG - returns_data = []
+2022-11-26 04:00:13,024 - basicLogger - INFO - 2022-11-26 04:00:13.024267
+2022-11-26 04:00:15,074 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T04:00:13Z
+2022-11-26 04:00:15,075 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 04:00:15,076 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 04:00:17,135 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T04:00:13Z
+2022-11-26 04:00:17,136 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 04:00:17,138 - basicLogger - DEBUG - returns_data = []
+2022-11-26 04:00:17,138 - basicLogger - DEBUG - returns_data = []
+2022-11-26 04:00:18,028 - basicLogger - INFO - 2022-11-26 04:00:18.028504
+2022-11-26 04:00:20,079 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T04:00:18Z
+2022-11-26 04:00:20,080 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 04:00:20,081 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 04:00:22,149 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T04:00:18Z
+2022-11-26 04:00:22,150 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 04:00:22,151 - basicLogger - DEBUG - returns_data = []
+2022-11-26 04:00:22,153 - basicLogger - DEBUG - returns_data = []
+2022-11-26 04:00:23,033 - basicLogger - INFO - 2022-11-26 04:00:23.033005
+2022-11-26 04:00:25,077 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T04:00:23Z
+2022-11-26 04:00:25,078 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 04:00:25,079 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 04:00:27,137 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T04:00:23Z
+2022-11-26 04:00:27,139 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 04:00:27,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 04:00:27,140 - basicLogger - DEBUG - returns_data = []
+2022-11-26 04:00:28,030 - basicLogger - INFO - 2022-11-26 04:00:28.030604
+2022-11-26 04:00:30,067 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T04:00:28Z
+2022-11-26 04:00:30,068 - basicLogger - DEBUG - withdrawals_response = <Response [200]>
+2022-11-26 04:00:30,069 - basicLogger - DEBUG - withdrawals_data = []
+2022-11-26 04:00:32,133 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T04:00:28Z
+2022-11-26 04:00:32,135 - basicLogger - DEBUG - returns_response = <Response [200]>
+2022-11-26 04:00:32,137 - basicLogger - DEBUG - returns_data = []
+2022-11-26 04:00:32,138 - basicLogger - DEBUG - returns_data = []

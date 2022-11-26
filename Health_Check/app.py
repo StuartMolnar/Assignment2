@@ -11,6 +11,7 @@ import logging.config
 import datetime
 import requests
 from health import Health
+import time
 
 
 with open('log_conf.yml', 'r') as f:
@@ -28,33 +29,69 @@ DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 
 def get_health_check():
-    return ('a', 'a', 'a', 'a')
+    session = DB_SESSION()
+
+    health = session.query(Health).order_by(Health.id.desc()).first()
+
+    return health.to_dict()
 
 def check_health():
     logger.info("Health check initiated")
+    now = datetime.datetime.now()
 
-    receiver_endpoint = requests.get(f"{app_config['eventstore']['receiver_url']}/get_health")
-    storage_endpoint = f"{app_config['eventstore']['storage_endpoint']}/get_health"
-    processing_endpoint = f"{app_config['eventstore']['processing_endpoint']}/get_health"
-    audit_endpoint = f"{app_config['eventstore']['audit_endpoint']}/get_health"
+    try:
+        receiver_endpoint = f"{app_config['eventstore']['receiver_url']}/health"
+        receiver_response = requests.get(receiver_endpoint).status_code
+    except:
+        receiver_response = 0
 
+    try:
+        storage_endpoint = f"{app_config['eventstore']['storage_url']}/health"
+        storage_response = requests.get(storage_endpoint).status_code
+    except:
+        storage_response = 0
     
-    responses = {"Receiver" : requests.get(receiver_endpoint),
-                 "Storage" : requests.get(storage_endpoint),
-                 "Processing" : requests.get(processing_endpoint),
-                 "Audit" : requests.get(audit_endpoint)}
-    last_updated = datetime.datetime.now()
+    try:
+        processing_endpoint = f"{app_config['eventstore']['processing_url']}/health"
+        processing_response = requests.get(storage_endpoint).status_code
+    except:
+        processing_response = 0
+    
+    try:
+        audit_endpoint = f"{app_config['eventstore']['audit_url']}/health"
+        audit_response = requests.get(audit_endpoint).status_code
+    except:
+        audit_response = 0
 
-    logger.debug("responses:", responses)
+    receiver = ("Running" if receiver_response == 200 else "Down")
+    storage = ("Running" if storage_response == 200 else "Down")
+    processing = ("Running" if processing_response == 200 else "Down")
+    audit = ("Running" if audit_response == 200 else "Down")
+
+
+    current_time = datetime.datetime.now()
+    time_elapsed = (current_time - now).total_seconds()
+    logger.debug(f'responses: {[receiver, storage, processing, audit, current_time.strftime("%Y-%m-%dT%H:%M:%S")]}')
+
+    while time_elapsed < 15:
+        time.sleep(0.2)
+        time_elapsed = (datetime.datetime.now() - now).total_seconds()
+    
 
     session = DB_SESSION()
     
     
-    health_response = Health(receiver_endpoint,
-                    storage_endpoint,
-                    processing_endpoint,
-                    audit_endpoint,
-                    last_updated)
+    health_response = Health(receiver,
+                    storage,
+                    processing,
+                    audit,
+                    datetime.datetime.now())
+
+    session.add(health_response)
+    logger.info('Service health data stored to database')
+    session.commit()
+    session.close()
+    
     
 
 
