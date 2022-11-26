@@ -2717,3 +2717,19 @@ FROM stats ORDER BY stats.last_updated DESC
 2022-11-26 01:58:57,257 - basicLogger - DEBUG - returns_data = []
 2022-11-26 01:58:57,258 - basicLogger - DEBUG - returns_data = []
 2022-11-26 01:58:58,136 - basicLogger - INFO - 2022-11-26 01:58:58.136957
+2022-11-26 03:38:08,134 - basicLogger - INFO - Periodic processing initiated
+2022-11-26 03:38:13,135 - basicLogger - INFO - 2022-11-26 03:38:13.135757
+2022-11-26 03:38:19,278 - basicLogger - DEBUG - withdrawals_endpoint = http://localhost:8090/books/withdrawals?timestamp=2022-11-26T03:38:13Z
+2022-11-26 03:38:19,279 - basicLogger - DEBUG - withdrawals_response = <Response [500]>
+2022-11-26 03:38:19,279 - basicLogger - DEBUG - inside response for loop - response = detail
+2022-11-26 03:38:19,280 - basicLogger - DEBUG - inside response for loop - response = status
+2022-11-26 03:38:19,280 - basicLogger - DEBUG - inside response for loop - response = title
+2022-11-26 03:38:19,280 - basicLogger - DEBUG - inside response for loop - response = type
+2022-11-26 03:38:19,281 - basicLogger - INFO - Status code is not 200
+2022-11-26 03:38:19,281 - basicLogger - DEBUG - withdrawals_data = ['detail', 'status', 'title', 'type']
+2022-11-26 03:38:25,356 - basicLogger - DEBUG - returns_endpoint = http://localhost:8090/books/returns?timestamp=2022-11-26T03:38:13Z
+2022-11-26 03:38:25,357 - basicLogger - DEBUG - returns_response = <Response [500]>
+2022-11-26 03:38:25,357 - basicLogger - INFO - Status code is not 200
+2022-11-26 03:38:25,358 - basicLogger - DEBUG - returns_data = ['detail', 'status', 'title', 'type']
+2022-11-26 03:38:25,358 - basicLogger - DEBUG - returns_data = ['detail', 'status', 'title', 'type']
+2022-11-26 03:38:25,359 - basicLogger - DEBUG - bkreturn = detail

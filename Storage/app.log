@@ -1985,3 +1985,5 @@ WHERE book_return.date_created >= %(date_created_1)s
 2022-11-26 01:58:52,245 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:58:48Z returns 0 results
 2022-11-26 01:58:55,197 - basicLogger - INFO - Query for Book Withdrawal events after 2022-11-26T01:58:53Z returns 0 results
 2022-11-26 01:58:57,251 - basicLogger - INFO - Query for Book Return events after 2022-11-26T01:58:53Z returns 0 results
+2022-11-26 03:38:06,244 - basicLogger - INFO - Connecting to DB. Hostname:localhost, Port:3306
+2022-11-26 03:38:06,275 - basicLogger - INFO - Connecting to DB. Hostname:localhost, Port:3306

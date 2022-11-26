@@ -10,6 +10,7 @@ import logging
 import logging.config
 import datetime
 import requests
+from health import Health
 
 
 with open('log_conf.yml', 'r') as f:
@@ -26,29 +27,12 @@ Base.metadata.bind = DB_ENGINE
 DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 
-'''
-        CREATE TABLE health
-        (id INTEGER PRIMARY KEY ASC,
-        receiver VARCHAR(100) NOT NULL,
-        storage VARCHAR(100) NOT NULL,
-        processing VARCHAR(100) NOT  NULL,
-        audit VARCHAR(100) NOT NULL,
-        last_updated VARCHAR(100) NOT NULL)
-
-'''
-
-'''
-eventstore:
-  receiver_url: http://localhost:8080
-  storage_url: http://localhost:8090
-  processing_url: http://localhost:8100
-  audit_url: http://localhost:8110
-'''
-
 def get_health_check():
     return ('a', 'a', 'a', 'a')
 
 def check_health():
+    logger.info("Health check initiated")
+
     receiver_endpoint = requests.get(f"{app_config['eventstore']['receiver_url']}/get_health")
     storage_endpoint = f"{app_config['eventstore']['storage_endpoint']}/get_health"
     processing_endpoint = f"{app_config['eventstore']['processing_endpoint']}/get_health"
@@ -65,13 +49,13 @@ def check_health():
 
     session = DB_SESSION()
     
-    '''
+    
     health_response = Health(receiver_endpoint,
                     storage_endpoint,
                     processing_endpoint,
                     audit_endpoint,
                     last_updated)
-    '''
+    
 
 
 
