@@ -2,10 +2,10 @@ version: 1
 datastore:
   user: root
   password: password
-  hostname: lab6.eastus.cloudapp.azure.com
+  hostname: localhost
   port: 3306
   db: books
 events:
-  hostname: lab6.eastus.cloudapp.azure.com
+  hostname: localhost
   port: 9092
   topic: events

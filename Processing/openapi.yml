@@ -8,6 +8,33 @@ info:
     email: stuartmolnar@hotmail.com
 
 paths:
+
+  /health:
+    get:
+      tags:
+        - service health
+      summary: gets array of all book withdrawals
+      operationId: app.get_health
+      description: Returns the health of the service
+      responses:
+        '200':
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
   /stats:
     get:
      summary: Gets the event stats

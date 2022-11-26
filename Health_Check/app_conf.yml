@@ -1,0 +1,10 @@
+version: 1
+datastore:
+  filename: health.sqlite
+scheduler:
+  period_sec: 20
+eventstore:
+  receiver_url: http://localhost:8080
+  storage_url: http://localhost:8090
+  processing_url: http://localhost:8100
+  audit_url: http://localhost:8110

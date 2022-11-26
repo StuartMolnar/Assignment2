@@ -40,6 +40,9 @@ logger.info(f"Connecting to DB. Hostname:{app_config['datastore']['hostname']}, 
 
 #---GET Requests---
 
+def get_health():
+    return NoContent, 200
+
 def get_withdrawals(timestamp):
     """ Gets new book withdrawals after the timestamp """
 

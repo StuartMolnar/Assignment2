@@ -1,0 +1,64 @@
+openapi: 3.0.0
+servers: []
+info:
+  description: This API provides processed statistics
+  version: "1.0.0"
+  title: Health Check API
+  contact:
+    email: stuartmolnar@hotmail.com
+
+paths:
+
+  /health-check:
+    get:
+      tags:
+        - service health
+      summary: gets list of all service healths
+      operationId: app.get_health_check
+      description: Returns the health of all services  
+      responses:
+        '200':
+          description: Successfully returned a list of service healths
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/Health'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string     
+          
+components:
+  schemas:
+    Health:
+      required:
+        - receiver
+        - storage
+        - processing
+        - audit
+        - last_update
+      properties:
+        num_bk_withdrawals:
+          type: string
+          example: "Running"
+        num_bk_returns:
+          type: string
+          example: "Down"
+        max_overdue_length:
+          type: string
+          example: "Running"
+        max_overdue_fine:
+          type: string
+          example: "Running"
+        longest_book_withdrawn:
+          type: string
+          format: date-time
+          example: "2022-03-22T11:12:23"
+      type: object

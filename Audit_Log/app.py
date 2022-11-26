@@ -19,6 +19,9 @@ with open('log_conf.yml', 'r') as f:
 
 logger = logging.getLogger('basicLogger')
 
+def get_health():
+    return NoContent, 200
+
 def get_book_withdrawal(index):
     """ Get BW in History """
     hostname = f"{app_config['events']['hostname']}:{app_config['events']['port']}"

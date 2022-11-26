@@ -26,6 +26,9 @@ DB_ENGINE = create_engine(f"sqlite:///{app_config['datastore']['filename']}")
 Base.metadata.bind = DB_ENGINE
 DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
+def get_health():
+    return NoContent, 200
+
 def get_stats():
     """ Get stats """
     logger.info("GET request initiated")

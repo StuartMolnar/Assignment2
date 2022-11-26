@@ -1,5 +1,5 @@
 version: 1
 events:
-  hostname: lab6.eastus.cloudapp.azure.com
+  hostname: localhost
   port: 9092
   topic: events

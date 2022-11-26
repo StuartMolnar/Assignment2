@@ -19,6 +19,9 @@ with open('log_conf.yml', 'r') as f:
 
 logger = logging.getLogger('basicLogger')
 
+def get_health():
+    return NoContent, 200
+
 def withdraw_book(body):
     """ Recieves a book withdraw event """
     
