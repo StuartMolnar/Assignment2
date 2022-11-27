@@ -39,28 +39,35 @@ def check_health():
     logger.info("Health check initiated")
     now = datetime.datetime.now()
 
+    logger.debug('receiver reached')
     try:
         receiver_endpoint = f"{app_config['eventstore']['receiver_url']}/health"
         receiver_response = requests.get(receiver_endpoint).status_code
-    except:
+        logger.debug('receiver try entered')
+    except Exception as e:
+        logger.debug(f'receiver exception: {e}')
         receiver_response = 0
+        logger.debug('receiver exception entered')
 
     try:
         storage_endpoint = f"{app_config['eventstore']['storage_url']}/health"
         storage_response = requests.get(storage_endpoint).status_code
-    except:
+    except Exception as e:
+        logger.debug(f'storage exception: {e}')
         storage_response = 0
     
     try:
         processing_endpoint = f"{app_config['eventstore']['processing_url']}/health"
         processing_response = requests.get(storage_endpoint).status_code
-    except:
+    except Exception as e:
+        logger.debug(f'processing exception: {e}')
         processing_response = 0
     
     try:
         audit_endpoint = f"{app_config['eventstore']['audit_url']}/health"
         audit_response = requests.get(audit_endpoint).status_code
-    except:
+    except Exception as e:
+        logger.debug(f'audit exception: {e}')
         audit_response = 0
 
     receiver = ("Running" if receiver_response == 200 else "Down")
