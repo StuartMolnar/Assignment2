@@ -70,6 +70,10 @@ services:
       - "8110:8110"
     depends_on:
       - "kafka"
+  health_check:
+    image: health_check
+    ports:
+    - "8120:8120"
 
 # Names our volume
 volumes:
