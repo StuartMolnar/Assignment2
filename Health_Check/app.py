@@ -29,6 +29,8 @@ DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
 
 def get_health_check():
+    """ Get health """
+    logger.info("GET request initiated")
     session = DB_SESSION()
 
     health = session.query(Health).order_by(Health.id.desc()).first()
