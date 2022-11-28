@@ -32,12 +32,26 @@
 
 <h4>8080</h4>
 
-![alt text](./Images/8080fromContainer.png)
+![alt text](./Images/8080fromHealth.png)
 
 <h4>8090</h4>
 
-![alt text](./Images/8090fromContainer.png)
+![alt text](./Images/8090fromHealth.png)
 
 <h4>8120</h4>
 
-![alt text](./Images/8120fromContainer.png)
+![alt text](./Images/8120fromHealth.png)
+
+<h4>Checking receiver, storage, and health-check endpoints from processing container</h4>
+
+<h4>8080</h4>
+
+![alt text](./Images/8080fromProcessing.png)
+
+<h4>8090</h4>
+
+![alt text](./Images/8090fromProcessing.png)
+
+<h4>8120</h4>
+
+![alt text](./Images/8120fromProcessing.png)
