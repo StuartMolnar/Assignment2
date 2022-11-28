@@ -10,7 +10,7 @@ Checking my endpoints from the VM
 
 <h4>8090</h4>
 
-![alt text](./Images/8089fromVM.png)
+![alt text](./Images/8090fromVM.png)
 
 <h4>8100</h4>
 
