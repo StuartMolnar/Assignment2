@@ -1,6 +1,6 @@
 <h4> Issue </h4>
 
-```http://lab6.eastus.cloudapp.azure.com:8120``` is inaccesible from its IPv4 address
+```http://lab6.eastus.cloudapp.azure.com:8120``` is inaccesible from its DNS/IPv4 address
 
 <h4>Checking my endpoints from the VM</h4>
 
