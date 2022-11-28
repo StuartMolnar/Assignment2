@@ -40,9 +40,10 @@ def check_health():
     now = datetime.datetime.now()
 
     logger.debug('receiver reached')
+
     try:
         receiver_endpoint = f"{app_config['eventstore']['receiver_url']}/health"
-        receiver_response = requests.get(receiver_endpoint).status_code
+        receiver_response = requests.get(receiver_endpoint, timeout=5).status_code
         logger.debug('receiver try entered')
     except Exception as e:
         logger.debug(f'receiver exception: {e}')
@@ -51,21 +52,21 @@ def check_health():
 
     try:
         storage_endpoint = f"{app_config['eventstore']['storage_url']}/health"
-        storage_response = requests.get(storage_endpoint).status_code
+        storage_response = requests.get(storage_endpoint, timeout=5).status_code
     except Exception as e:
         logger.debug(f'storage exception: {e}')
         storage_response = 0
     
     try:
         processing_endpoint = f"{app_config['eventstore']['processing_url']}/health"
-        processing_response = requests.get(storage_endpoint).status_code
+        processing_response = requests.get(processing_endpoint, timeout=5).status_code
     except Exception as e:
         logger.debug(f'processing exception: {e}')
         processing_response = 0
     
     try:
         audit_endpoint = f"{app_config['eventstore']['audit_url']}/health"
-        audit_response = requests.get(audit_endpoint).status_code
+        audit_response = requests.get(audit_endpoint, timeout=5).status_code
     except Exception as e:
         logger.debug(f'audit exception: {e}')
         audit_response = 0
@@ -95,9 +96,9 @@ def check_health():
                     datetime.datetime.now())
 
     session.add(health_response)
-    logger.info('Service health data stored to database')
     session.commit()
     session.close()
+    logger.info('Service health data stored to database')
     
     
 
