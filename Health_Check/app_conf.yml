@@ -4,7 +4,7 @@ datastore:
 scheduler:
   period_sec: 5
 eventstore:
-  receiver_url: http://lab6.eastus.cloudapp.azure.com:8080
+  receiver_url: http://localhost:8080
   storage_url: http://localhost:8090
-  processing_url: http://lab6.eastus.cloudapp.azure.com:8100
-  audit_url: http://lab6.eastus.cloudapp.azure.com:8110
+  processing_url: http://localhost:8100
+  audit_url: http://localhost:8110
