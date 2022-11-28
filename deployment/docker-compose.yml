@@ -74,6 +74,7 @@ services:
     image: health_check
     ports:
     - "8120:8120"
+    network_mode: "host"
 
 # Names our volume
 volumes:
