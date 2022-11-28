@@ -43,8 +43,10 @@ def check_health():
 
     logger.debug('receiver reached')
 
+    
     try:
         receiver_endpoint = f"{app_config['eventstore']['receiver_url']}/health"
+        logger.debug(f'receiver endpoint: {receiver_endpoint}')
         receiver_response = requests.get(receiver_endpoint, timeout=5).status_code
         logger.debug('receiver try entered')
     except Exception as e:
@@ -52,8 +54,10 @@ def check_health():
         receiver_response = 0
         logger.debug('receiver exception entered')
 
+    
     try:
         storage_endpoint = f"{app_config['eventstore']['storage_url']}/health"
+        logger.debug(f'storage endpoint: {storage_endpoint}')
         storage_response = requests.get(storage_endpoint, timeout=5).status_code
     except Exception as e:
         logger.debug(f'storage exception: {e}')
